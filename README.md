@@ -1,5 +1,5 @@
 
-# covid19-turkey-api  ![Auto Updates](https://github.com/hbayindir/covid-19-turkey/workflows/Sheduler%20Workflow/badge.svg)
+# covid19-turkey-api  ![Auto Updates](https://github.com/hbayindir/covid-19-turkey/workflows/Scheduler%20Workflow/badge.svg)
 
 Bu repository Ozan Ertürk'ün geliştirmiş olduğu [covid19-turkey-api](https://github.com/ozanerturk/covid19-turkey-api) kodunun bir çatallamasıdır.
 
