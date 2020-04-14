@@ -1,14 +1,14 @@
 
-# covid19-turkey-api  ![Node.js CI](https://github.com/ozanerturk/covid19-turkey-api/workflows/Node.js%20CI/badge.svg?branch=master&event=schedule)
+# covid19-turkey-api  ![Auto Updates](https://github.com/hbayindir/covid-19-turkey/workflows/Sheduler%20Workflow/badge.svg)
 
 Bu repository Ozan Ertürk'ün geliştirmiş olduğu [covid19-turkey-api](https://github.com/ozanerturk/covid19-turkey-api) kodunun bir çatallamasıdır.
 
-![Image of Application](https://raw.githubusercontent.com/capan/covid19-turkey-api/master/assets/Screenshot%20from%202020-04-12%2021-44-44.png)
+![Image of Application](https://github.com/hbayindir/covid-19-turkey/raw/master/assets/Screenshot%20from%202020-04-12%2021-44-44.png)
 
-### [Website](https://ozanerturk.github.io/covid19-turkey-api/)
+### [Website](https://hbayindir.github.io/covid-19-turkey/)
 ## Datasets
-### [JSON](https://raw.githubusercontent.com/ozanerturk/covid19-turkey-api/master/dataset/timeline.json) 
-### [CSV](https://raw.githubusercontent.com/ozanerturk/covid19-turkey-api/master/dataset/timeline.csv)
+### [JSON](https://raw.githubusercontent.com/hbayindir/covid19-turkey/master/dataset/timeline.json) 
+### [CSV](https://raw.githubusercontent.com/hbayindir/covid19-turkey/master/dataset/timeline.csv)
 
 Bu uygulama her 5 dakikada bir  T.C. Sağlık bakanlığının [https://covid19.saglik.gov.tr](https://covid19.saglik.gov.tr/#) adresindeki bilgiler ile verisetlerini günceller. Uygulama doğrudan Github Actions üzerinde çalışır. [dataset](dataset) klasörünün içinde güncel data JSON ve CSV olarak barınmaktadır.
 Geriye dönük bilgiler aşağıdaki kaynaklar kullanılarak elde edilmiştir.
