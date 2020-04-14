@@ -7,8 +7,8 @@ Bu repository Ozan Ertürk'ün geliştirmiş olduğu [covid19-turkey-api](https:
 
 ### [Website](https://hbayindir.github.io/covid-19-turkey/)
 ## Datasets
-### [JSON](https://raw.githubusercontent.com/hbayindir/covid19-turkey/master/dataset/timeline.json) 
-### [CSV](https://raw.githubusercontent.com/hbayindir/covid19-turkey/master/dataset/timeline.csv)
+### [JSON](https://raw.githubusercontent.com/hbayindir/covid-19-turkey/master/dataset/timeline.json) 
+### [CSV](https://raw.githubusercontent.com/hbayindir/covid-19-turkey/master/dataset/timeline.csv)
 
 Bu uygulama her 5 dakikada bir  T.C. Sağlık bakanlığının [https://covid19.saglik.gov.tr](https://covid19.saglik.gov.tr/#) adresindeki bilgiler ile verisetlerini günceller. Uygulama doğrudan Github Actions üzerinde çalışır. [dataset](dataset) klasörünün içinde güncel data JSON ve CSV olarak barınmaktadır.
 Geriye dönük bilgiler aşağıdaki kaynaklar kullanılarak elde edilmiştir.
