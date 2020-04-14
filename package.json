@@ -1,5 +1,5 @@
 {
-  "name": "covid19-turkey-api",
+  "name": "covid-19-turkey",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ozanerturk/covid19-turkey-api.git"
+    "url": "git+https://github.com/hbayindir/covid-19-turkey.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ozanerturk/covid19-turkey-api/issues"
+    "url": "https://github.com/hbayindir/covid-19-turkey/issues"
   },
-  "homepage": "https://github.com/ozanerturk/covid19-turkey-api#readme",
+  "homepage": "https://github.com/hbayindir/covid-19-turkey#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "jsdom": "^16.2.2",
