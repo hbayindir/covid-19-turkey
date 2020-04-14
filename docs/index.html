@@ -1,0 +1,476 @@
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name='ROBOTS' content='ALL' />
+    <title>COVID-19 Türkiye Güncel</title>
+    <meta name='keywords' content='covid19,covid,novel covid,corona,graphics,turkey'>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+        integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css'
+        integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css'>
+    <script src='https://cdn.jsdelivr.net/npm/apexcharts'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js'
+        integrity='sha256-AdQN98MVZs44Eq2yTwtoKufhnU+uZ7v2kXnD5vqzZVo=' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.28/moment-timezone-with-data.min.js'
+        integrity='sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=' crossorigin='anonymous'></script>
+</head>
+
+<body style='padding: 20px; margin-top:10px; padding-top:0px'>
+    <div class='float-left'>
+        <a href='https://github.com/ozanerturk/covid19-turkey-api'>Kaynak</a>
+    </div>
+    <div class='text-right text-secondary'>
+        Son güncelleme: <abbr id='lastUpdate'></abbr>
+    </div>
+    <div class='float-right'>
+        <a href='https://raw.githubusercontent.com/ozanerturk/covid19-turkey-api/master/dataset/timeline.json'>JSON</a>
+        <a href='https://raw.githubusercontent.com/ozanerturk/covid19-turkey-api/master/dataset/timeline.csv'>CSV</a>
+    </div>
+
+    <div class='container-fluid'>
+        <div class='row justify-content-md-center mt-4'>
+            <div class='col-md-auto'>
+                <h1>Bugün</h1>
+            </div>
+        </div>
+        <div class='row mt-4'>
+            <div class='col'>
+                <table id='tableBugun'>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col col-lg-9 col-sm-12 col-md-12'>
+            <div id='chart'></div>
+        </div>
+        <div class='col col-lg-3 col-sm-12 col-md-12'>
+            <div id='pieChart' style='margin-top:50px'></div>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col col-lg-6 col-sm-12 col-md-12'>
+            <div id='logarithmicChart'></div>
+        </div>
+        <div class='col col-lg-6 col-sm-12 col-md-12'>
+            <div id='speedChart'></div>
+        </div>
+    </div>
+    <table id='table'>
+    </table>
+
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js'
+        integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'
+        integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1'
+        crossorigin='anonymous'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
+        integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM'
+        crossorigin='anonymous'></script>
+    <script src='https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js'></script>
+
+    <script>
+        const pieOptions = {
+            series: [],
+            chart: {
+                type: 'pie'
+            },
+            title: {
+                text: '',
+                align: 'left',
+                offsetX: 110
+            },
+            colors: ['#008FFB', '#00E396', '#FF0000'],
+            labels: ['Aktif Vaka', 'İyileşen', 'Vefat']
+        };
+
+        const logarithmicOptions = {
+            series: [],
+            chart: {
+                height: 350,
+                type: 'line',
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            title: {
+                text: 'Logaritmik Vaka Artışı',
+                align: 'left'
+            },
+            xaxis: {
+                categories: []
+            },
+            colors: ['#008FFB'],
+            yaxis: {
+                seriesName: 'vaka',
+                logarithmic: true
+            }
+        };
+
+        const speedOptions = {
+            series: [],
+            chart: {
+                height: 350,
+                type: 'line',
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'straight'
+            },
+            title: {
+                text: 'Günlük Vaka / Vefat',
+                align: 'left'
+            },
+            xaxis: {
+                categories: []
+            },
+            colors: ['#008FFB', '#FF0000'],
+            yaxis: [{
+                seriesName: 'vaka',
+                axisTicks: {
+                    show: true
+                },
+                axisBorder: {
+                    show: true,
+                    color: '#008FFB'
+                },
+                labels: {
+                    style: {
+                        colors: '#008FFB'
+                    }
+                },
+                title: {
+                    text: 'Vaka',
+                    style: {
+                        color: '#008FFB'
+                    }
+                },
+                tooltip: {
+                    enabled: true
+                }
+            },
+            {
+                seriesName: 'vefat',
+                opposite: true,
+                axisTicks: {
+                    show: true
+                },
+                axisBorder: {
+                    show: true,
+                    color: '#FF0000'
+                },
+                labels: {
+                    style: {
+                        colors: '#FF0000'
+                    }
+                },
+                title: {
+                    text: 'Vefat',
+                    style: {
+                        color: '#FF0000'
+                    }
+                }
+            }]
+        };
+
+        const options = {
+            series: [],
+            chart: {
+                height: 350,
+                type: 'line',
+                stacked: false
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                width: [2, 2, 2]
+            },
+            title: {
+                text: 'COVID-19 Türkiye Güncel Durum',
+                align: 'left',
+                offsetX: 110
+            },
+            xaxis: {
+                categories: []
+            },
+            colors: ['#008FFB', '#FF0000', '#00E396', '#BBBBBB'],
+            yaxis: [{
+                seriesName: 'vaka',
+                axisTicks: {
+                    show: true
+                },
+                axisBorder: {
+                    show: true,
+                    color: '#008FFB'
+                },
+                labels: {
+                    style: {
+                        colors: '#008FFB'
+                    }
+                },
+                title: {
+                    text: 'Vaka',
+                    style: {
+                        color: '#008FFB'
+                    }
+                },
+                tooltip: {
+                    enabled: true
+                }
+            },
+            {
+                seriesName: 'vefat',
+                axisTicks: {
+                    show: true
+                },
+                axisBorder: {
+                    show: true,
+                    color: '#FF0000'
+                },
+                labels: {
+                    style: {
+                        colors: '#FF0000'
+                    }
+                },
+                title: {
+                    text: 'Vefat',
+                    style: {
+                        color: '#FF0000'
+                    }
+                }
+            },
+            {
+                seriesName: 'iyileşen',
+                opposite: true,
+                axisTicks: {
+                    show: true
+                },
+                axisBorder: {
+                    show: true,
+                    color: '#00E396'
+                },
+                labels: {
+                    style: {
+                        colors: '#00E396'
+                    }
+                },
+                title: {
+                    text: 'İyileşen',
+                    style: {
+                        color: '#00E396'
+                    }
+                }
+            },
+            {
+                seriesName: 'test sayısı',
+                opposite: true,
+                axisTicks: {
+                    show: true
+                },
+                axisBorder: {
+                    show: true,
+                    color: '#FEB019'
+                },
+                labels: {
+                    style: {
+                        colors: '#FEB019'
+                    }
+                },
+                title: {
+                    text: 'Test sayısı',
+                    style: {
+                        color: '#FEB019'
+                    }
+                }
+            }],
+            tooltip: {
+                fixed: {
+                    enabled: true,
+                    position: 'topLeft', // topRight, topLeft, bottomRight, bottomLeft
+                    offsetY: 30,
+                    offsetX: 60
+                }
+            },
+            legend: {
+                horizontalAlign: 'left',
+                offsetX: 40
+            }
+        };
+
+        const lastCheckHeaders = new Headers({
+            'Accept': 'application/vnd.github.antiope-preview+json'
+        });
+        const lastCheckRequest = new Request('https://api.github.com/repos/ozanerturk/covid19-turkey-api/actions/workflows/950217/runs?status=completed&page=1&per_page=1', {
+            method: 'GET',
+            headers: lastCheckHeaders,
+            mode: 'cors',
+            cache: 'default'
+        });
+        fetch(lastCheckRequest)
+            .then(res => res.json())
+            .then(json => {
+                const time = moment.tz(json.workflow_runs[0].updated_at, 'YYYY-MM-DDTHH:mm:ss:SSS', 'Europe/Istanbul').add('+3', 'hours');
+                const lastUpdateElement = document.getElementById('lastUpdate');
+                lastUpdateElement.innerText = time.local().fromNow();
+                lastUpdateElement.title = time.format() + ' GMT+3';
+            });
+
+        moment.locale('tr');
+        fetch('https://raw.githubusercontent.com/ozanerturk/covid19-turkey-api/master/dataset/timeline.json')
+            .then(res => res.json())
+            .then(res => {
+                const dates = Object.keys(res).map(x => moment(x, 'DD/MM/YYYY').format('DD MMM'));
+                const values = Object.values(res);
+
+                options.series.push({
+                    name: 'vaka',
+                    type: 'line',
+                    data: values.map(x => x.totalCases)
+                });
+                options.series.push({
+                    name: 'vefat',
+                    type: 'line',
+                    data: values.map(x => x.totalDeaths)
+                });
+                options.series.push({
+                    name: 'iyileşen',
+                    type: 'line',
+                    data: values.map(x => x.totalRecovered)
+                });
+                options.series.push({
+                    name: 'test sayısı',
+                    type: 'column',
+                    data: values.map(x => x.tests)
+                });
+                options.xaxis.categories = dates;
+                const chart = new ApexCharts(document.querySelector('#chart'), options);
+                chart.render();
+
+                //logarithmic
+                logarithmicOptions.series.push({
+                    name: 'vaka',
+                    type: 'line',
+                    data: values.map(x => x.totalCases)
+                });
+                logarithmicOptions.xaxis.categories = dates;
+                const logarithmicChart = new ApexCharts(document.querySelector('#logarithmicChart'), logarithmicOptions);
+                logarithmicChart.render();
+
+                //pie
+                const last = values[values.length - 1];
+                pieOptions.series.push(last.totalCases - last.totalRecovered - last.totalDeaths);
+                pieOptions.series.push(+last.totalRecovered);
+                pieOptions.series.push(+last.totalDeaths);
+                const pieChart = new ApexCharts(document.querySelector('#pieChart'), pieOptions);
+                pieChart.render();
+
+                //speed
+                speedOptions.series.push({
+                    name: 'vaka',
+                    type: 'line',
+                    data: values.map(x => x.cases)
+                });
+                speedOptions.series.push({
+                    name: 'vefat',
+                    type: 'line',
+                    data: values.map(x => x.deaths)
+                });
+                speedOptions.xaxis.categories = dates;
+                const speedChart = new ApexCharts(document.querySelector('#speedChart'), speedOptions);
+                speedChart.render();
+
+                const tableData = Object.values(res).reverse();
+                const tableConfig = {
+                    columns: [{
+                        field: 'date',
+                        title: 'Tarih'
+                    },
+                    {
+                        field: 'tests',
+                        title: 'Test'
+                    },
+                    {
+                        field: 'cases',
+                        title: 'Vaka'
+                    },
+                    {
+                        field: 'recovered',
+                        title: 'İyileşen'
+                    },
+                    {
+                        field: 'deaths',
+                        title: 'Vefat'
+                    },
+                    {
+                        field: 'totalTests',
+                        title: 'Toplam Test'
+                    },
+                    {
+                        field: 'totalCases',
+                        title: 'Toplam Vaka'
+                    },
+                    {
+                        field: 'totalRecovered',
+                        title: 'Toplam İyileşen'
+                    },
+                    {
+                        field: 'totalDeaths',
+                        title: 'Toplam Vefat'
+                    },
+                    {
+                        field: 'totalIntubated',
+                        title: 'Toplam Entübe Hasta'
+                    },
+                    {
+                        field: 'totalIntensiveCare',
+                        title: 'Toplam Yoğun Bakım'
+                    }]
+                };
+
+                const tableAllConfig = Object.assign({}, tableConfig);
+                tableAllConfig.data = tableData;
+                $('#table').bootstrapTable(tableAllConfig);
+                const tableBugunConfig = Object.assign({}, tableConfig);
+                tableBugunConfig.data = [tableData[0]];
+                $('#tableBugun').bootstrapTable(tableBugunConfig);
+            });
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            align-items: stretch;
+        }
+
+        #chart {
+            flex: 1;
+            margin: 35px auto;
+        }
+
+        #chart .apexcharts-tooltip {
+            display: flex;
+            border: 0;
+            margin-top: -30px;
+            box-shadow: none;
+        }
+    </style>
+</body>
+
+</html>
