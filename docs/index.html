@@ -313,7 +313,7 @@
         const lastCheckHeaders = new Headers({
             'Accept': 'application/vnd.github.antiope-preview+json'
         });
-        const lastCheckRequest = new Request('https://api.github.com/repos/ozanerturk/covid19-turkey-api/actions/workflows/950217/runs?status=completed&page=1&per_page=1', {
+        const lastCheckRequest = new Request('https://api.github.com/repos/hbayindir/covid-19-turkey/actions/workflows/1019089/runs?status=completed&page=1&per_page=1', {
             method: 'GET',
             headers: lastCheckHeaders,
             mode: 'cors',
@@ -329,7 +329,7 @@
             });
 
         moment.locale('tr');
-        fetch('https://raw.githubusercontent.com/ozanerturk/covid19-turkey-api/master/dataset/timeline.json')
+        fetch('https://raw.githubusercontent.com/hbayindir/covid-19-turkey/master/dataset/timeline.json')
             .then(res => res.json())
             .then(res => {
                 const dates = Object.keys(res).map(x => moment(x, 'DD/MM/YYYY').format('DD MMM'));
