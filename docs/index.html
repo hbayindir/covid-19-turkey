@@ -1,25 +1,61 @@
-<html>
-
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <meta name='ROBOTS' content='ALL' />
-    <title>COVID-19 Türkiye Güncel</title>
-    <meta name='keywords' content='covid19,covid,novel covid,corona,graphics,turkey'>
-    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
-        integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css'
-        integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'>
-    <link rel='stylesheet' href='https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css'>
-    <script src='https://cdn.jsdelivr.net/npm/apexcharts'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js'
-        integrity='sha256-AdQN98MVZs44Eq2yTwtoKufhnU+uZ7v2kXnD5vqzZVo=' crossorigin='anonymous'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.28/moment-timezone-with-data.min.js'
-        integrity='sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=' crossorigin='anonymous'></script>
-</head>
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name='ROBOTS' content='ALL' />
+        <meta name='keywords' content='covid19,covid,novel covid,corona,graphics,turkey'>
+        
+        <!-- Bootstrap CSS comes here -->
+        <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+        <link rel='stylesheet' href='https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css'>
+        
+        <!-- Awesome fonts! -->
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'>
+        
+        <!-- Include ApexCharts for graphing. -->
+        <script src='https://cdn.jsdelivr.net/npm/apexcharts'></script>
+        
+        <!-- Timezone conversion with moment -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js' integrity='sha256-AdQN98MVZs44Eq2yTwtoKufhnU+uZ7v2kXnD5vqzZVo=' crossorigin='anonymous'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.28/moment-timezone-with-data.min.js' integrity='sha256-IWYg4uIC8/erItNXYvLtyYHioRi2zT1TFva8qaAU/ww=' crossorigin='anonymous'></script>
+            
+        <title>COVID-19 Turkey Stats</title>
+    </head>
 
 <body style='padding: 20px; margin-top:10px; padding-top:0px'>
+    
+    <!-- Bootstap JS includes, as recommended by BootStrap themselves. -->
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' crossorigin='anonymous'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'></script>
+    <script src='https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js'></script>
+    
+    <!-- Set the global body style before content -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            align-items: stretch;
+        }
+
+        #chart {
+            flex: 1;
+            margin: 35px auto;
+        }
+
+        #chart .apexcharts-tooltip {
+            display: flex;
+            border: 0;
+            margin-top: -30px;
+            box-shadow: none;
+        }
+    </style>
+    
     <div class='float-left'>
         <a href='https://github.com/hbayindir/covid-19-turkey'>Kaynak</a>
     </div>
@@ -30,11 +66,20 @@
         <a href='https://raw.githubusercontent.com/hbayindir/covid-19-turkey/master/dataset/timeline.json'>JSON</a>
         <a href='https://raw.githubusercontent.com/hbayindir/covid-19-turkey/master/dataset/timeline.csv'>CSV</a>
     </div>
-
+    
+    <div class='jumbotron text-center'>
+        <h1>COVID-19 Türkiye Güncel Durum Bilgileri</h1>
+        <!-- TODO: Add ministry of health logo -->
+        <p>
+            T.C. Sağlık Bakanlığı verileri ile oluşturulmaktadır.</br>
+            Veriler otomatik olarak güncellenmektedir.
+        </p>
+    </div>
+    
     <div class='container-fluid'>
         <div class='row justify-content-md-center mt-4'>
             <div class='col-md-auto'>
-                <h1>Bugün</h1>
+                <h2>Bugün</h2>
             </div>
         </div>
         <div class='row mt-4'>
@@ -44,36 +89,86 @@
             </div>
         </div>
     </div>
+    
     <div class='row'>
         <div class='col col-lg-9 col-sm-12 col-md-12'>
-            <div id='chart'></div>
+            <div id='totalsChart'></div>
         </div>
         <div class='col col-lg-3 col-sm-12 col-md-12'>
             <div id='pieChart' style='margin-top:50px'></div>
         </div>
     </div>
+    
     <div class='row'>
         <div class='col col-lg-6 col-sm-12 col-md-12'>
-            <div id='logarithmicChart'></div>
+            <div id='icuTotalsChart'></div>
         </div>
         <div class='col col-lg-6 col-sm-12 col-md-12'>
             <div id='speedChart'></div>
         </div>
     </div>
+    
+    <div class='row'>
+        <div class='col col-lg-6 col-sm-12 col-md-12'>
+            <div id='testPositivityPercentChart'></div>
+        </div>
+        <div class='col col-lg-6 col-sm-12 col-md-12'>
+            <div id='growthChart'></div>
+        </div>
+    </div>
+    
     <table id='table'>
     </table>
-
-    <script src='https://code.jquery.com/jquery-3.3.1.min.js'
-        integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=' crossorigin='anonymous'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'
-        integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1'
-        crossorigin='anonymous'></script>
-    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
-        integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM'
-        crossorigin='anonymous'></script>
-    <script src='https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js'></script>
+    
+    <!-- Visual stuff ends here, below is the script for populating the page. -->
 
     <script>
+    
+        // This function calculates the percent growth of the given array
+        // and returns the value as another array.
+        // First value is always returned 0.
+        function calculateGrowth(dataToProcess)
+        {
+            let growthPercentArray = [0];
+            
+            for (let i = 1; i < dataToProcess.length; i++)
+            {
+                let growthPercent = ((dataToProcess[i]*100)/dataToProcess[i-1])-100;
+                
+                if (isNaN(growthPercent) || growthPercent == Infinity)
+                {
+                    growthPercent = 0;
+                }
+                
+                growthPercentArray.push(growthPercent);
+            }
+            
+            return growthPercentArray;
+        }
+        
+        // This function calculates the simple percentage for the given array
+        // and returns the value as another array.
+        function calculatePercentage(primaryValue, secondaryValue)
+        {
+            let percentageArray = [];
+            
+            for (let i = 0; i < primaryValue.length; i++)
+            {
+                let percentage = (primaryValue[i]/secondaryValue[i]*100);
+                
+                if (isNaN(percentage) || percentage == Infinity)
+                {
+                    percentage = 0;
+                }
+                
+                percentageArray.push(percentage);
+            }
+            
+            return percentageArray;
+        }
+        
+        
+    
         const pieOptions = {
             series: [],
             chart: {
@@ -84,11 +179,11 @@
                 align: 'left',
                 offsetX: 110
             },
-            colors: ['#008FFB', '#00E396', '#FF0000'],
+            colors: ['#5786B2', '#FFC428', '#F98025'],
             labels: ['Aktif Vaka', 'İyileşen', 'Vefat']
         };
 
-        const logarithmicOptions = {
+        const totalsOptions = {
             series: [],
             chart: {
                 height: 350,
@@ -100,17 +195,107 @@
             dataLabels: {
                 enabled: false
             },
+            stroke: {
+                curve: 'straight'
+            },
             title: {
-                text: 'Logaritmik Vaka Artışı',
+                text: 'Toplam Vaka, Vefat ve İyileşen Sayıları',
                 align: 'left'
             },
             xaxis: {
                 categories: []
             },
-            colors: ['#008FFB'],
+            colors: ['#5786B2', '#F98025', '#FFC428'],
             yaxis: {
-                seriesName: 'vaka',
-                logarithmic: true
+                seriesName: 'toplam',
+                logarithmic: false
+            }
+        };
+        
+        const icuTotalsOptions = {
+            series: [],
+            chart: {
+                height: 350,
+                type: 'line',
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'straight'
+            },
+            title: {
+                text: 'Toplam Yoğun Bakım ve Entübe Hasta Sayıları',
+                align: 'left'
+            },
+            xaxis: {
+                categories: []
+            },
+            colors: ['#5786B2', '#F98025', '#FFC428'],
+            yaxis: {
+                seriesName: 'toplam',
+                logarithmic: false
+            }
+        };
+        
+        const growthPercentageOptions = {
+            series: [],
+            chart: {
+                height: 350,
+                type: 'line',
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'straight'
+            },
+            title: {
+                text: 'Vaka, İyileşen ve Vefat Büyüme Oranları',
+                align: 'left'
+            },
+            xaxis: {
+                categories: []
+            },
+            colors: ['#5786B2', '#F98025', '#FFC428'],
+            yaxis: {
+                seriesName: 'Yüzde Artış',
+                logarithmic: false
+            }
+        };
+        
+        const testPositivityPercentOptions = {
+            series: [],
+            chart: {
+                height: 350,
+                type: 'line',
+                zoom: {
+                    enabled: false
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'straight'
+            },
+            title: {
+                text: 'Günlük Pozitif Test Oranları',
+                align: 'left'
+            },
+            xaxis: {
+                categories: []
+            },
+            colors: ['#5786B2'],
+            yaxis: {
+                seriesName: 'Yüzde Artış',
+                logarithmic: false
             }
         };
 
@@ -130,59 +315,83 @@
                 curve: 'straight'
             },
             title: {
-                text: 'Günlük Vaka / Vefat',
+                text: 'Günlük Vaka, Vefat ve İyileşme Sayıları',
                 align: 'left'
             },
             xaxis: {
                 categories: []
             },
-            colors: ['#008FFB', '#FF0000'],
-            yaxis: [{
-                seriesName: 'vaka',
-                axisTicks: {
-                    show: true
-                },
-                axisBorder: {
-                    show: true,
-                    color: '#008FFB'
-                },
-                labels: {
-                    style: {
-                        colors: '#008FFB'
-                    }
-                },
-                title: {
-                    text: 'Vaka',
-                    style: {
-                        color: '#008FFB'
-                    }
-                },
-                tooltip: {
-                    enabled: true
-                }
-            },
+            colors: ['#5786B2', '#F98025', '#FFC428'],
+            yaxis: [
+//             {
+//                 seriesName: 'vaka',
+//                 axisTicks: {
+//                     show: true
+//                 },
+//                 axisBorder: {
+//                     show: true,
+//                     color: '#5786B2'
+//                 },
+//                 labels: {
+//                     style: {
+//                         colors: '#5786B2'
+//                     }
+//                 },
+//                 title: {
+//                     text: 'Vaka',
+//                     style: {
+//                         color: '#5786B2'
+//                     }
+//                 },
+//                 tooltip: {
+//                     enabled: true
+//                 }
+//             },
+//             {
+//                 seriesName: 'vefat',
+//                 opposite: true,
+//                 axisTicks: {
+//                     show: true
+//                 },
+//                 axisBorder: {
+//                     show: true,
+//                     color: '#F98025'
+//                 },
+//                 labels: {
+//                     style: {
+//                         colors: '#F98025'
+//                     }
+//                 },
+//                 title: {
+//                     text: 'Vefat',
+//                     style: {
+//                         color: '#F98025'
+//                     }
+//                 }
+//             },
             {
-                seriesName: 'vefat',
+                seriesName: 'gunlukSayi',
                 opposite: true,
                 axisTicks: {
                     show: true
                 },
                 axisBorder: {
                     show: true,
-                    color: '#FF0000'
+                    //color: '#FFC428'
                 },
                 labels: {
                     style: {
-                        colors: '#FF0000'
+                        //colors: '#FFC428'
                     }
                 },
                 title: {
-                    text: 'Vefat',
+                    text: 'Günlük Sayı',
                     style: {
-                        color: '#FF0000'
+                        //color: '#FFC428'
                     }
                 }
-            }]
+            }
+            ]
         };
 
         const options = {
@@ -334,7 +543,7 @@
             .then(res => {
                 const dates = Object.keys(res).map(x => moment(x, 'DD/MM/YYYY').format('DD MMM'));
                 const values = Object.values(res);
-
+                
                 options.series.push({
                     name: 'vaka',
                     type: 'line',
@@ -356,18 +565,83 @@
                     data: values.map(x => x.tests)
                 });
                 options.xaxis.categories = dates;
-                const chart = new ApexCharts(document.querySelector('#chart'), options);
-                chart.render();
+//              const chart = new ApexCharts(document.querySelector('#chart'), options);
+//              chart.render();
 
-                //logarithmic
-                logarithmicOptions.series.push({
+                // Totals chart
+                totalsOptions.series.push({
                     name: 'vaka',
                     type: 'line',
                     data: values.map(x => x.totalCases)
                 });
-                logarithmicOptions.xaxis.categories = dates;
-                const logarithmicChart = new ApexCharts(document.querySelector('#logarithmicChart'), logarithmicOptions);
-                logarithmicChart.render();
+                
+                totalsOptions.series.push({
+                    name: 'vefat',
+                    type: 'line',
+                    data: values.map(x => x.totalDeaths)
+                });
+                
+                totalsOptions.series.push({
+                    name: 'iyileşen',
+                    type: 'line',
+                    data: values.map(x => x.totalRecovered)
+                });
+                
+                totalsOptions.xaxis.categories = dates;
+                const totalsChart = new ApexCharts(document.querySelector('#totalsChart'), totalsOptions);
+                totalsChart.render();
+                
+                // Growth Percentage chart
+                growthPercentageOptions.series.push({
+                    name: 'vaka',
+                    type: 'line',
+                    data: calculateGrowth(values.map(x => x.totalCases))
+                });
+                
+                growthPercentageOptions.series.push({
+                    name: 'vefat',
+                    type: 'line',
+                    data: calculateGrowth(values.map(x => x.totalDeaths))
+                });
+                
+                growthPercentageOptions.series.push({
+                    name: 'iyileşen',
+                    type: 'line',
+                    data: calculateGrowth(values.map(x => x.totalRecovered))
+                });
+                
+                growthPercentageOptions.xaxis.categories = dates;
+                const growthPercentageChart = new ApexCharts(document.querySelector('#growthChart'), growthPercentageOptions);
+                growthPercentageChart.render();
+                
+                // Test Positivity Percentage chart
+                testPositivityPercentOptions.series.push({
+                    name: 'pPozitif test oranı',
+                    type: 'line',
+                    data: calculatePercentage(values.map(x => x.cases), values.map(y => y.tests))
+                });
+                
+                testPositivityPercentOptions.xaxis.categories = dates;
+                const testPositivityPercentChart = new ApexCharts(document.querySelector('#testPositivityPercentChart'), testPositivityPercentOptions);
+                testPositivityPercentChart.render();
+                
+                // ICU & Entubated Totals chart
+                icuTotalsOptions.series.push({
+                    name: 'yogun bakim',
+                    type: 'line',
+                    data: values.map(x => x.totalIntensiveCare)
+                });
+                
+                icuTotalsOptions.series.push({
+                    name: 'entube hasta',
+                    type: 'line',
+                    data: values.map(x => x.totalIntubated)
+                });
+                
+                
+                icuTotalsOptions.xaxis.categories = dates;
+                const icuTotalsChart = new ApexCharts(document.querySelector('#icuTotalsChart'), icuTotalsOptions);
+                icuTotalsChart.render();
 
                 //pie
                 const last = values[values.length - 1];
@@ -387,6 +661,11 @@
                     name: 'vefat',
                     type: 'line',
                     data: values.map(x => x.deaths)
+                });
+                speedOptions.series.push({
+                    name: 'iyileşen',
+                    type: 'line',
+                    data: values.map(x => x.recovered)
                 });
                 speedOptions.xaxis.categories = dates;
                 const speedChart = new ApexCharts(document.querySelector('#speedChart'), speedOptions);
@@ -449,28 +728,7 @@
             });
     </script>
 
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
 
-        .container {
-            display: flex;
-            align-items: stretch;
-        }
-
-        #chart {
-            flex: 1;
-            margin: 35px auto;
-        }
-
-        #chart .apexcharts-tooltip {
-            display: flex;
-            border: 0;
-            margin-top: -30px;
-            box-shadow: none;
-        }
-    </style>
 </body>
 
 </html>
