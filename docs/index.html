@@ -266,7 +266,12 @@
             colors: ['#5786B2', '#F98025', '#FFC428'],
             yaxis: {
                 seriesName: 'Yüzde Artış',
-                logarithmic: false
+                logarithmic: false,
+                labels: {
+                    formatter: function (value) {
+                        return parseInt(value);
+                    }
+                }
             }
         };
         
@@ -295,7 +300,12 @@
             colors: ['#5786B2'],
             yaxis: {
                 seriesName: 'Yüzde Artış',
-                logarithmic: false
+                logarithmic: false,
+                labels: {
+                    formatter: function (value) {
+                        return parseInt(value);
+                    }
+                }
             }
         };
 
