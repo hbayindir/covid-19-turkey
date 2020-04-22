@@ -1,7 +1,7 @@
 
 # COVID-19 Turkey Dashboard  ![Auto Updates](https://github.com/hbayindir/covid-19-turkey/workflows/Scheduler%20Workflow/badge.svg)
 
-For English, please refer [here](https://raw.githubusercontent.com/hbayindir/covid-19-turkey/master/README.en.md).
+For English, please refer [here](https://github.com/hbayindir/covid-19-turkey/blob/master/README.en.md).
 
 **Not:** Bu repository Ozan Ertürk'ün geliştirmiş olduğu [covid19-turkey-api](https://github.com/ozanerturk/covid19-turkey-api) kodunun bir çatallamasıdır.
 

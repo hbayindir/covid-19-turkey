@@ -1,7 +1,7 @@
 
 # COVID-19 Turkey Dashboard  ![Auto Updates](https://github.com/hbayindir/covid-19-turkey/workflows/Scheduler%20Workflow/badge.svg)
 
-For Turkish, please refer [here](https://raw.githubusercontent.com/hbayindir/covid-19-turkey/master/README.md).
+For Turkish, please refer [here](https://github.com/hbayindir/covid-19-turkey/blob/master/README.md).
 
 **Note:** This repository is a fork of the code developed by Ozan Ertürk. Access to his repository from [here](https://github.com/ozanerturk/covid19-turkey-api).
 
