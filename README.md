@@ -1,31 +1,27 @@
 
-# covid19-turkey-api  ![Auto Updates](https://github.com/hbayindir/covid-19-turkey/workflows/Scheduler%20Workflow/badge.svg)
+# COVID-19 Turkey Dashboard  ![Auto Updates](https://github.com/hbayindir/covid-19-turkey/workflows/Scheduler%20Workflow/badge.svg)
 
-Bu repository Ozan Ertürk'ün geliştirmiş olduğu [covid19-turkey-api](https://github.com/ozanerturk/covid19-turkey-api) kodunun bir çatallamasıdır.
+For English, please refer [here](https://raw.githubusercontent.com/hbayindir/covid-19-turkey/master/README.en.md).
 
-![Image of Application](https://github.com/hbayindir/covid-19-turkey/raw/master/assets/Screenshot%20from%202020-04-12%2021-44-44.png)
+**Not:** Bu repository Ozan Ertürk'ün geliştirmiş olduğu [covid19-turkey-api](https://github.com/ozanerturk/covid19-turkey-api) kodunun bir çatallamasıdır.
 
-### [Website](https://hbayindir.github.io/covid-19-turkey/)
-## Datasets
-### [JSON](https://raw.githubusercontent.com/hbayindir/covid-19-turkey/master/dataset/timeline.json) 
-### [CSV](https://raw.githubusercontent.com/hbayindir/covid-19-turkey/master/dataset/timeline.csv)
+![Image of Application](https://github.com/hbayindir/covid-19-turkey/raw/master/assets/website_screenshot.jpg)
 
-Bu uygulama her 5 dakikada bir  T.C. Sağlık bakanlığının [https://covid19.saglik.gov.tr](https://covid19.saglik.gov.tr/#) adresindeki bilgiler ile verisetlerini günceller. Uygulama doğrudan Github Actions üzerinde çalışır. [dataset](dataset) klasörünün içinde güncel data JSON ve CSV olarak barınmaktadır.
+- [Web Sayfası](https://hbayindir.github.io/covid-19-turkey/)
+
+### Veri Setleri 
+- [JSON](https://raw.githubusercontent.com/hbayindir/covid-19-turkey/master/dataset/timeline.json) 
+- [CSV](https://raw.githubusercontent.com/hbayindir/covid-19-turkey/master/dataset/timeline.csv)
+
+Bu uygulama her yarım saatte bir T.C. Sağlık bakanlığının [https://covid19.saglik.gov.tr](https://covid19.saglik.gov.tr/#) adresindeki bilgiler ile veri setlerini günceller. Uygulama doğrudan Github Actions üzerinde çalışır. [dataset](dataset) klasörünün içinde güncel data JSON ve CSV olarak barınmaktadır.
+
 Geriye dönük bilgiler aşağıdaki kaynaklar kullanılarak elde edilmiştir.
 
------
+### COVID-19 ile ilgili diğer API ve veri kaynakları
+- [Postman](https://covid-19-apis.postman.com/)
 
-*This application updates data sets by pulling data from the website of the Turkish Ministry of Health [https://covid19.saglik.gov.tr](https://covid19.saglik.gov.tr/#) every 5 minutes. Application works directly over Github Actions. Most recent data can be found in [dataset](dataset) folder in JSON and CSV format.*
-
-*Historical data has been obtained from the datasources listed below.*
-
------
-
-Other Api's related to COVID-19
-https://covid-19-apis.postman.com/
-
-*Kaynaklar/Resources:*
+### Kaynaklar
 - [https://covid19.saglik.gov.tr](https://covid19.saglik.gov.tr/#) 
-- [Türkiye Cumhuriyeti Sağlık Bakanı - Minister of Health of the Republic of Turkey](https://twitter.com/drfahrettinkoca)
+- [Türkiye Cumhuriyeti Sağlık Bakanı](https://twitter.com/drfahrettinkoca)
 - [COVID-19 Türkiye Web Portalı (TÜBİTAK)](https://covid19.tubitak.gov.tr/turkiyede-durum)
 
