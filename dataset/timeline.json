@@ -1844,5 +1844,18 @@
         "cases": "967",
         "deaths": "15",
         "recovered": "982"
+    },
+    "31/07/2020": {
+        "date": "31/07/2020",
+        "totalTests": "4800823",
+        "totalCases": "230873",
+        "totalDeaths": "5691",
+        "totalIntensiveCare": "%8,8",
+        "totalIntubated": "582",
+        "totalRecovered": "214535",
+        "tests": "46492",
+        "cases": "982",
+        "deaths": "17",
+        "recovered": "996"
     }
 }
