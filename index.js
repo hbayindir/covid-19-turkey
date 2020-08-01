@@ -50,6 +50,23 @@ async function update () {
 
         const timeline = JSON.parse(fs.readFileSync('dataset/timeline.json'));
 
+        /*
+         * Following code block traverses whole JSON data and adds the missing fields if any.
+         * Normally, the block will be left disabled for performance reasons but, may be
+         * enabled when there's a data format change.
+         */
+        /*
+        for (day in timeline){
+
+            for (field in fields){
+                if (!(fields[field] in timeline[day])){
+                    console.log(day + " doesn't have the " + fields[field] + " field.");
+                    timeline[day][fields[field]] = '';
+                }
+            }
+        }
+        */
+
         const date = moment(extractInfo(body, queries.date), 'DD MMM YYYY').format('DD/MM/YYYY');
 
         timeline[date] = {};
