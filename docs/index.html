@@ -166,8 +166,27 @@
             
             return percentageArray;
         }
-        
-        
+
+        // This function is designed to replace NaN values with None in an array.
+        // Instead of modifying the array, it returns a new one.
+        function fixEmptyStrings(inputArray)
+        {
+            let outputArray = [];
+            
+            for (let i = 0; i < inputArray.length; i++)
+            {
+                let arrayValue = inputArray[i]
+
+                if (arrayValue == '')
+                {
+                    arrayValue = null;
+                }
+                
+                outputArray.push(arrayValue);
+            }
+            
+            return outputArray;
+        }
     
         const pieOptions = {
             series: [],
@@ -447,15 +466,20 @@
                 icuTotalsOptions.series.push({
                     name: 'Yoğun bakım',
                     type: 'line',
-                    data: values.map(x => x.totalIntensiveCare)
+                    data: fixEmptyStrings(values.map(x => x.totalIntensiveCare))
                 });
                 
                 icuTotalsOptions.series.push({
                     name: 'Entübe hasta',
                     type: 'line',
-                    data: values.map(x => x.totalIntubated)
+                    data: fixEmptyStrings(values.map(x => x.totalIntubated))
                 });
                 
+                icuTotalsOptions.series.push({
+                    name: 'Ağır hasta',
+                    type: 'line',
+                    data: fixEmptyStrings(values.map(x => x.critical))
+                });
                 
                 icuTotalsOptions.xaxis.categories = dates;
                 const icuTotalsChart = new ApexCharts(document.querySelector('#icuTotalsChart'), icuTotalsOptions);
@@ -534,6 +558,14 @@
                     {
                         field: 'totalIntensiveCare',
                         title: 'Toplam Yoğun Bakım'
+                    },
+                    {
+                        field: 'critical',
+                        title: 'Ağır Hasta Sayısı'
+                    },
+                    {
+                        field: 'pneumoniaPercent',
+                        title: 'Zatürre oranı (%)'
                     }]
                 };
 
