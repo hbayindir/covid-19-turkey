@@ -116,6 +116,15 @@
             <div id='growthChart'></div>
         </div>
     </div>
+
+    <div class='row'>
+        <div class='col col-lg-6 col-sm-12 col-md-12'>
+            <div id='dailyTestCountsChart'></div>
+        </div>
+        <div class='col col-lg-6 col-sm-12 col-md-12'>
+            <div id='pneumoniaPercentChart'></div>
+        </div>
+    </div>
     
     <table id='table'>
     </table>
@@ -187,6 +196,25 @@
             
             return outputArray;
         }
+
+		function stripFirstCharacter(inputArray)
+		{
+			let outputArray = [];
+			
+            for (let i = 0; i < inputArray.length; i++)
+            {
+                if(inputArray[i] != null)
+				{
+					outputArray.push(parseFloat(inputArray[i].substring(1).replace(/,/g, ".")));
+				}
+				else
+				{
+					outputArray.push(null);
+				}
+            }
+            
+            return outputArray;
+		}
     
         const pieOptions = {
             series: [],
@@ -380,6 +408,74 @@
             ]
         };
 
+        const dailyTestCountOptions = {
+            series: [],
+            chart: {
+                height: 350,
+                type: 'line',
+                zoom: {
+                    type: 'x',
+                    enabled: true,
+                    autoScaleYaxis: true
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'straight'
+            },
+            title: {
+                text: 'Günlük Yapılan Test Sayısı',
+                align: 'left'
+            },
+            xaxis: {
+                categories: []
+            },
+            colors: ['#5786B2', '#F98025', '#FFC428'],
+            yaxis: {
+                seriesName: 'Test sayısı',
+                title: {
+                    text: 'Test sayısı (adet)'
+                },
+                logarithmic: false
+            }
+        };
+
+        const pneumoniaPercentOptions = {
+            series: [],
+            chart: {
+                height: 350,
+                type: 'line',
+                zoom: {
+                    type: 'x',
+                    enabled: true,
+                    autoScaleYaxis: true
+                }
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'straight'
+            },
+            title: {
+                text: 'Vakalar İçerisindeki Zatürre Oranı',
+                align: 'left'
+            },
+            xaxis: {
+                categories: []
+            },
+            colors: ['#5786B2', '#F98025', '#FFC428'],
+            yaxis: {
+                seriesName: 'Zatürre oranı',
+                title: {
+                    text: 'Zatürre oranı (yüzde)'
+                },
+                logarithmic: false
+            }
+        };
+
         const lastCheckHeaders = new Headers({
             'Accept': 'application/vnd.github.antiope-preview+json'
         });
@@ -513,6 +609,24 @@
                 const speedChart = new ApexCharts(document.querySelector('#speedChart'), speedOptions);
                 speedChart.render();
 
+ 				// Daily test count chart
+                dailyTestCountOptions.series.push({
+                    name: 'Test sayısı',
+                    type: 'line',
+                    data: fixEmptyStrings(values.map(x => x.tests))
+                });
+                
+				dailyTestCountOptions.xaxis.categories = dates;
+                const dailyTestCountChart = new ApexCharts(document.querySelector('#dailyTestCountsChart'), dailyTestCountOptions);
+                dailyTestCountChart.render();
+
+ 				// Pnemonia percent chart
+                pneumoniaPercentOptions.series.push({
+                    name: 'Zatürre Oranı',
+                    type: 'line',
+                    data: stripFirstCharacter(fixEmptyStrings(values.map(x => x.pneumoniaPercent)))
+                });
+
                 const tableData = Object.values(res).reverse();
                 const tableConfig = {
                     columns: [{
@@ -568,6 +682,10 @@
                         title: 'Zatürre oranı (%)'
                     }]
                 };
+                
+				pneumoniaPercentOptions.xaxis.categories = dates;
+                const pneumoniaPercentChart = new ApexCharts(document.querySelector('#pneumoniaPercentChart'), pneumoniaPercentOptions);
+                pneumoniaPercentChart.render();
 
                 const tableAllConfig = Object.assign({}, tableConfig);
                 tableAllConfig.data = tableData;
