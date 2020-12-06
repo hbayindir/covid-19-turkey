@@ -227,7 +227,7 @@
                 offsetX: 110
             },
             colors: ['#5786B2', '#FFC428', '#F98025'],
-            labels: ['Vaka', 'İyileşen', 'Vefat']
+            labels: ['Hasta', 'İyileşen', 'Vefat']
         };
 
         const totalsOptions = {
@@ -248,7 +248,7 @@
                 curve: 'straight'
             },
             title: {
-                text: 'Toplam Vaka, İyileşen ve Vefat Sayıları',
+                text: 'Toplam Hasta, İyileşen ve Vefat Sayıları',
                 align: 'left'
             },
             xaxis: {
@@ -316,7 +316,7 @@
                 curve: 'straight'
             },
             title: {
-                text: 'Vaka, İyileşen ve Vefat Büyüme Oranları',
+                text: 'Hasta, İyileşen ve Vefat Büyüme Oranları',
                 align: 'left'
             },
             xaxis: {
@@ -384,7 +384,7 @@
                 curve: 'straight'
             },
             title: {
-                text: 'Günlük Vaka, Vefat ve İyileşme Sayıları',
+                text: 'Günlük Hasta, Vefat ve İyileşme Sayıları',
                 align: 'left'
             },
             xaxis: {
@@ -460,7 +460,7 @@
                 curve: 'straight'
             },
             title: {
-                text: 'Vakalar İçerisindeki Zatürre Oranı',
+                text: 'Hastalar İçerisindeki Zatürre Oranı',
                 align: 'left'
             },
             xaxis: {
@@ -503,9 +503,9 @@
                 
                 // Totals chart
                 totalsOptions.series.push({
-                    name: 'Vaka',
+                    name: 'Hasta',
                     type: 'line',
-                    data: values.map(x => x.totalCases)
+                    data: values.map(x => x.totalPatients)
                 });
                 
                 totalsOptions.series.push({
@@ -526,9 +526,9 @@
                 
                 // Growth Percentage chart
                 growthPercentageOptions.series.push({
-                    name: 'Vaka',
+                    name: 'Hasta',
                     type: 'line',
-                    data: calculateGrowth(values.map(x => x.totalCases))
+                    data: calculateGrowth(values.map(x => x.totalPatients))
                 });
                 
                 growthPercentageOptions.series.push({
@@ -551,7 +551,7 @@
                 testPositivityPercentOptions.series.push({
                     name: 'Pozitif test oranı',
                     type: 'line',
-                    data: calculatePercentage(values.map(x => x.cases), values.map(y => y.tests))
+                    data: calculatePercentage(values.map(x => x.patients), values.map(y => y.tests))
                 });
                 
                 testPositivityPercentOptions.xaxis.categories = dates;
@@ -583,7 +583,7 @@
 
                 //pie
                 const last = values[values.length - 1];
-                pieOptions.series.push(last.totalCases - last.totalRecovered - last.totalDeaths);
+                pieOptions.series.push(last.totalPatients - last.totalRecovered - last.totalDeaths);
                 pieOptions.series.push(+last.totalRecovered);
                 pieOptions.series.push(+last.totalDeaths);
                 const pieChart = new ApexCharts(document.querySelector('#pieChart'), pieOptions);
@@ -591,9 +591,9 @@
 
                 //speed
                 speedOptions.series.push({
-                    name: 'Vaka',
+                    name: 'Hasta',
                     type: 'line',
-                    data: values.map(x => x.cases)
+                    data: values.map(x => x.patients)
                 });
                 speedOptions.series.push({
                     name: 'İyileşen',
@@ -637,9 +637,13 @@
                         field: 'tests',
                         title: 'Test'
                     },
+					{
+						field: 'cases',
+						title: 'Günlük Vaka'	
+					},
                     {
-                        field: 'cases',
-                        title: 'Vaka'
+                        field: 'patients',
+                        title: 'Hasta'
                     },
                     {
                         field: 'recovered',
@@ -654,8 +658,8 @@
                         title: 'Toplam Test'
                     },
                     {
-                        field: 'totalCases',
-                        title: 'Toplam Vaka'
+                        field: 'totalPatients',
+                        title: 'Toplam Hasta'
                     },
                     {
                         field: 'totalRecovered',
