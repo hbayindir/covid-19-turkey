@@ -22,6 +22,25 @@ async function update() {
         const date = moment(data.tarih, 'DD.MM.YYYY').format('DD/MM/YYYY');
 
         const timeline = JSON.parse(fs.readFileSync('dataset/timeline.json'));
+        
+    	/*
+         * Following code block traverses whole JSON data and adds the missing fields if any.
+         * Normally, the block will be left disabled for performance reasons but, may be
+         * enabled when there's a data format change.
+         */
+        /*
+        var fields = ["cases"]
+        for (day in timeline){
+
+            for (field in fields){
+                if (!(fields[field] in timeline[day])){
+                    console.log(day + " doesn't have the " + fields[field] + " field.");
+                    timeline[day][fields[field]] = '';
+                }
+            }
+        }
+        */
+        
         const DOT_REGEX = /\./gi;
         let dayData = {
             date: date,
@@ -39,9 +58,7 @@ async function update() {
             deaths: data.gunluk_vefat.replace(DOT_REGEX, ''),
             recovered: data.gunluk_iyilesen.replace(DOT_REGEX, '')
         }
-        if (Object.keys(timeline).indexOf(date) == -1) {
-            sendTelegram(dayData)
-        }
+        
         timeline[date] = dayData
 
         console.log(dayData)
@@ -52,33 +69,6 @@ async function update() {
     } catch (e) {
         console.log(e);
     }
-}
-
-function sendTelegram(data) {
-    const lines = []
-    for (key of Object.keys(data)) {
-        lines.push(`\t\t${key.trim()}:\t\t${data[key].trim()}`)
-    }
-    const message = `
-*REPORT_${data.date}*
-
-\`\`\`
-${lines.join('\n')}
-\`\`\`
-please visit https://ozanerturk.github.io/covid19-turkey-api/
-for overall data and charts
-Official source: https://covid19.saglik.gov.tr/
-        `
-    axios.post(`https://api.telegram.org/bot${process.env.TELEGRAM_TOKEN}/sendMessage`, {
-        chat_id: process.env.CHAT_ID,
-        text: message,
-        parse_mode: "Markdown",
-        disable_web_page_preview: true
-    }).then(() => {
-
-    }).catch(e => {
-        console.log(e)
-    });
 }
 
 update();

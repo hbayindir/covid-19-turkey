@@ -12,7 +12,8 @@
         "totalTests": "0",
         "date": "11/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "12/03/2020": {
         "patients": "0",
@@ -27,7 +28,8 @@
         "totalTests": "0",
         "date": "12/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "13/03/2020": {
         "patients": "4",
@@ -42,7 +44,8 @@
         "totalTests": "0",
         "date": "13/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "14/03/2020": {
         "patients": "1",
@@ -57,7 +60,8 @@
         "totalTests": "0",
         "date": "14/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "15/03/2020": {
         "patients": "12",
@@ -72,7 +76,8 @@
         "totalTests": "0",
         "date": "15/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "16/03/2020": {
         "patients": "29",
@@ -87,7 +92,8 @@
         "totalTests": "0",
         "date": "16/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "17/03/2020": {
         "patients": "51",
@@ -102,7 +108,8 @@
         "totalTests": "8002",
         "date": "17/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "18/03/2020": {
         "patients": "93",
@@ -117,7 +124,8 @@
         "totalTests": "10017",
         "date": "18/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "19/03/2020": {
         "patients": "168",
@@ -132,7 +140,8 @@
         "totalTests": "11998",
         "date": "19/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "20/03/2020": {
         "patients": "311",
@@ -147,7 +156,8 @@
         "totalTests": "15624",
         "date": "20/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "21/03/2020": {
         "patients": "277",
@@ -162,7 +172,8 @@
         "totalTests": "18604",
         "date": "21/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "22/03/2020": {
         "patients": "289",
@@ -177,7 +188,8 @@
         "totalTests": "20345",
         "date": "22/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "23/03/2020": {
         "patients": "293",
@@ -192,7 +204,8 @@
         "totalTests": "24017",
         "date": "23/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "24/03/2020": {
         "patients": "343",
@@ -207,7 +220,8 @@
         "totalTests": "27969",
         "date": "24/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "25/03/2020": {
         "patients": "561",
@@ -222,7 +236,8 @@
         "totalTests": "33004",
         "date": "25/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "26/03/2020": {
         "patients": "1196",
@@ -237,7 +252,8 @@
         "totalTests": "40290",
         "date": "26/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "27/03/2020": {
         "patients": "2069",
@@ -252,7 +268,8 @@
         "totalTests": "47823",
         "date": "27/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "28/03/2020": {
         "patients": "1704",
@@ -267,7 +284,8 @@
         "totalTests": "55464",
         "date": "28/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "29/03/2020": {
         "patients": "1815",
@@ -282,7 +300,8 @@
         "totalTests": "65446",
         "date": "29/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "30/03/2020": {
         "patients": "1610",
@@ -297,7 +316,8 @@
         "totalTests": "76981",
         "date": "30/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "31/03/2020": {
         "patients": "2704",
@@ -312,7 +332,8 @@
         "totalTests": "92403",
         "date": "31/03/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "01/04/2020": {
         "patients": "2148",
@@ -327,7 +348,8 @@
         "totalTests": "106799",
         "date": "01/04/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "02/04/2020": {
         "patients": "2456",
@@ -342,7 +364,8 @@
         "totalTests": "125556",
         "date": "02/04/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "03/04/2020": {
         "patients": "2786",
@@ -357,7 +380,8 @@
         "totalTests": "141716",
         "date": "03/04/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "04/04/2020": {
         "totalTests": "161380",
@@ -372,7 +396,8 @@
         "recovered": "302",
         "date": "04/04/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "05/04/2020": {
         "totalTests": "181446",
@@ -387,7 +412,8 @@
         "recovered": "256",
         "date": "05/04/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "06/04/2020": {
         "totalTests": "202845",
@@ -402,7 +428,8 @@
         "recovered": "284",
         "date": "06/04/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "07/04/2020": {
         "totalTests": "222868",
@@ -417,7 +444,8 @@
         "recovered": "256",
         "date": "07/04/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "08/04/2020": {
         "totalTests": "247768",
@@ -432,7 +460,8 @@
         "recovered": "264",
         "date": "08/04/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "09/04/2020": {
         "totalTests": "276346",
@@ -447,7 +476,8 @@
         "recovered": "296",
         "date": "09/04/2020",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "10/04/2020": {
         "date": "10/04/2020",
@@ -462,7 +492,8 @@
         "deaths": "98",
         "recovered": "281",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "11/04/2020": {
         "date": "11/04/2020",
@@ -477,7 +508,8 @@
         "deaths": "95",
         "recovered": "542",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "12/04/2020": {
         "date": "12/04/2020",
@@ -492,7 +524,8 @@
         "deaths": "97",
         "recovered": "481",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "13/04/2020": {
         "date": "13/04/2020",
@@ -507,7 +540,8 @@
         "deaths": "98",
         "recovered": "511",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "14/04/2020": {
         "date": "14/04/2020",
@@ -522,7 +556,8 @@
         "deaths": "107",
         "recovered": "842",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "15/04/2020": {
         "date": "15/04/2020",
@@ -537,7 +572,8 @@
         "deaths": "115",
         "recovered": "875",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "16/04/2020": {
         "date": "16/04/2020",
@@ -552,7 +588,8 @@
         "deaths": "125",
         "recovered": "1415",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "17/04/2020": {
         "date": "17/04/2020",
@@ -567,7 +604,8 @@
         "deaths": "126",
         "recovered": "1542",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "18/04/2020": {
         "date": "18/04/2020",
@@ -582,7 +620,8 @@
         "deaths": "121",
         "recovered": "1822",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "19/04/2020": {
         "date": "19/04/2020",
@@ -597,7 +636,8 @@
         "deaths": "127",
         "recovered": "1523",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "20/04/2020": {
         "date": "20/04/2020",
@@ -612,7 +652,8 @@
         "deaths": "123",
         "recovered": "1454",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "21/04/2020": {
         "date": "21/04/2020",
@@ -627,7 +668,8 @@
         "deaths": "119",
         "recovered": "1488",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "22/04/2020": {
         "date": "22/04/2020",
@@ -642,7 +684,8 @@
         "deaths": "117",
         "recovered": "1559",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "23/04/2020": {
         "date": "23/04/2020",
@@ -657,7 +700,8 @@
         "deaths": "115",
         "recovered": "2014",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "24/04/2020": {
         "date": "24/04/2020",
@@ -672,7 +716,8 @@
         "deaths": "109",
         "recovered": "3246",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "25/04/2020": {
         "date": "25/04/2020",
@@ -687,7 +732,8 @@
         "deaths": "106",
         "recovered": "3845",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "26/04/2020": {
         "date": "26/04/2020",
@@ -702,7 +748,8 @@
         "deaths": "99",
         "recovered": "3558",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "27/04/2020": {
         "date": "27/04/2020",
@@ -717,7 +764,8 @@
         "deaths": "95",
         "recovered": "4651",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "28/04/2020": {
         "date": "28/04/2020",
@@ -732,7 +780,8 @@
         "deaths": "92",
         "recovered": "5018",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "29/04/2020": {
         "date": "29/04/2020",
@@ -747,7 +796,8 @@
         "deaths": "89",
         "recovered": "5231",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "30/04/2020": {
         "date": "30/04/2020",
@@ -762,7 +812,8 @@
         "deaths": "93",
         "recovered": "4846",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "01/05/2020": {
         "date": "01/05/2020",
@@ -777,7 +828,8 @@
         "deaths": "84",
         "recovered": "4922",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "02/05/2020": {
         "date": "02/05/2020",
@@ -792,7 +844,8 @@
         "deaths": "78",
         "recovered": "4451",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "03/05/2020": {
         "date": "03/05/2020",
@@ -807,7 +860,8 @@
         "deaths": "61",
         "recovered": "4892",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "04/05/2020": {
         "date": "04/05/2020",
@@ -822,7 +876,8 @@
         "deaths": "64",
         "recovered": "5015",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "05/05/2020": {
         "date": "05/05/2020",
@@ -837,7 +892,8 @@
         "deaths": "59",
         "recovered": "5119",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "06/05/2020": {
         "date": "06/05/2020",
@@ -852,7 +908,8 @@
         "deaths": "64",
         "recovered": "4917",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "07/05/2020": {
         "date": "07/05/2020",
@@ -867,7 +924,8 @@
         "deaths": "57",
         "recovered": "4782",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "08/05/2020": {
         "date": "08/05/2020",
@@ -882,7 +940,8 @@
         "deaths": "48",
         "recovered": "3412",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "09/05/2020": {
         "date": "09/05/2020",
@@ -897,7 +956,8 @@
         "deaths": "50",
         "recovered": "3084",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "10/05/2020": {
         "date": "10/05/2020",
@@ -912,7 +972,8 @@
         "deaths": "47",
         "recovered": "3211",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "11/05/2020": {
         "date": "11/05/2020",
@@ -927,7 +988,8 @@
         "deaths": "55",
         "recovered": "3089",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "12/05/2020": {
         "date": "12/05/2020",
@@ -942,7 +1004,8 @@
         "deaths": "53",
         "recovered": "3109",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "13/05/2020": {
         "date": "13/05/2020",
@@ -957,7 +1020,8 @@
         "deaths": "58",
         "recovered": "2826",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "14/05/2020": {
         "date": "14/05/2020",
@@ -972,7 +1036,8 @@
         "deaths": "55",
         "recovered": "2315",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "15/05/2020": {
         "date": "15/05/2020",
@@ -987,7 +1052,8 @@
         "deaths": "48",
         "recovered": "2103",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "16/05/2020": {
         "date": "16/05/2020",
@@ -1002,7 +1068,8 @@
         "deaths": "41",
         "recovered": "2004",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "17/05/2020": {
         "date": "17/05/2020",
@@ -1017,7 +1084,8 @@
         "deaths": "44",
         "recovered": "1825",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "18/05/2020": {
         "date": "18/05/2020",
@@ -1032,7 +1100,8 @@
         "deaths": "31",
         "recovered": "1615",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "19/05/2020": {
         "date": "19/05/2020",
@@ -1047,7 +1116,8 @@
         "deaths": "28",
         "recovered": "1318",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "20/05/2020": {
         "date": "20/05/2020",
@@ -1062,7 +1132,8 @@
         "deaths": "23",
         "recovered": "1092",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "21/05/2020": {
         "date": "21/05/2020",
@@ -1077,7 +1148,8 @@
         "deaths": "27",
         "recovered": "1003",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "22/05/2020": {
         "date": "22/05/2020",
@@ -1092,7 +1164,8 @@
         "deaths": "27",
         "recovered": "1121",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "23/05/2020": {
         "date": "23/05/2020",
@@ -1107,7 +1180,8 @@
         "deaths": "32",
         "recovered": "1491",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "24/05/2020": {
         "date": "24/05/2020",
@@ -1122,7 +1196,8 @@
         "deaths": "32",
         "recovered": "1092",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "25/05/2020": {
         "date": "25/05/2020",
@@ -1137,7 +1212,8 @@
         "deaths": "29",
         "recovered": "1321",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "26/05/2020": {
         "date": "26/05/2020",
@@ -1152,7 +1228,8 @@
         "deaths": "28",
         "recovered": "1492",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "27/05/2020": {
         "date": "27/05/2020",
@@ -1167,7 +1244,8 @@
         "deaths": "34",
         "recovered": "1286",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "28/05/2020": {
         "date": "28/05/2020",
@@ -1182,7 +1260,8 @@
         "deaths": "30",
         "recovered": "1576",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "29/05/2020": {
         "date": "29/05/2020",
@@ -1197,7 +1276,8 @@
         "deaths": "28",
         "recovered": "1594",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "30/05/2020": {
         "date": "30/05/2020",
@@ -1212,7 +1292,8 @@
         "deaths": "26",
         "recovered": "1021",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "31/05/2020": {
         "date": "31/05/2020",
@@ -1227,7 +1308,8 @@
         "deaths": "25",
         "recovered": "989",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "01/06/2020": {
         "date": "01/06/2020",
@@ -1242,7 +1324,8 @@
         "deaths": "23",
         "recovered": "974",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "02/06/2020": {
         "date": "02/06/2020",
@@ -1257,7 +1340,8 @@
         "deaths": "22",
         "recovered": "974",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "03/06/2020": {
         "date": "03/06/2020",
@@ -1272,7 +1356,8 @@
         "deaths": "24",
         "recovered": "931",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "04/06/2020": {
         "date": "04/06/2020",
@@ -1287,7 +1372,8 @@
         "deaths": "21",
         "recovered": "926",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "05/06/2020": {
         "date": "05/06/2020",
@@ -1302,7 +1388,8 @@
         "deaths": "18",
         "recovered": "1622",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "06/06/2020": {
         "date": "06/06/2020",
@@ -1317,7 +1404,8 @@
         "deaths": "21",
         "recovered": "1922",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "07/06/2020": {
         "date": "07/06/2020",
@@ -1332,7 +1420,8 @@
         "deaths": "23",
         "recovered": "2647",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "08/06/2020": {
         "date": "08/06/2020",
@@ -1347,7 +1436,8 @@
         "deaths": "19",
         "recovered": "3411",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "09/06/2020": {
         "date": "09/06/2020",
@@ -1362,7 +1452,8 @@
         "deaths": "18",
         "recovered": "3218",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "10/06/2020": {
         "date": "10/06/2020",
@@ -1377,7 +1468,8 @@
         "deaths": "17",
         "recovered": "2241",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "11/06/2020": {
         "date": "11/06/2020",
@@ -1392,7 +1484,8 @@
         "deaths": "17",
         "recovered": "1021",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "12/06/2020": {
         "date": "12/06/2020",
@@ -1407,7 +1500,8 @@
         "deaths": "15",
         "recovered": "1242",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "13/06/2020": {
         "date": "13/06/2020",
@@ -1422,7 +1516,8 @@
         "deaths": "14",
         "recovered": "985",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "14/06/2020": {
         "date": "14/06/2020",
@@ -1437,7 +1532,8 @@
         "deaths": "15",
         "recovered": "1330",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "15/06/2020": {
         "date": "15/06/2020",
@@ -1452,7 +1548,8 @@
         "deaths": "18",
         "recovered": "947",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "16/06/2020": {
         "date": "16/06/2020",
@@ -1467,7 +1564,8 @@
         "deaths": "17",
         "recovered": "1015",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "17/06/2020": {
         "date": "17/06/2020",
@@ -1482,7 +1580,8 @@
         "deaths": "19",
         "recovered": "1261",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "18/06/2020": {
         "date": "18/06/2020",
@@ -1497,7 +1596,8 @@
         "deaths": "21",
         "recovered": "1382",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "19/06/2020": {
         "date": "19/06/2020",
@@ -1512,7 +1612,8 @@
         "deaths": "23",
         "recovered": "1494",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "20/06/2020": {
         "date": "20/06/2020",
@@ -1527,7 +1628,8 @@
         "deaths": "22",
         "recovered": "1312",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "21/06/2020": {
         "date": "21/06/2020",
@@ -1542,7 +1644,8 @@
         "deaths": "23",
         "recovered": "1412",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "22/06/2020": {
         "date": "22/06/2020",
@@ -1557,7 +1660,8 @@
         "deaths": "24",
         "recovered": "1293",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "23/06/2020": {
         "date": "23/06/2020",
@@ -1572,7 +1676,8 @@
         "deaths": "27",
         "recovered": "1315",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "24/06/2020": {
         "date": "24/06/2020",
@@ -1587,7 +1692,8 @@
         "deaths": "24",
         "recovered": "1386",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "25/06/2020": {
         "date": "25/06/2020",
@@ -1602,7 +1708,8 @@
         "deaths": "21",
         "recovered": "1472",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "26/06/2020": {
         "date": "26/06/2020",
@@ -1617,7 +1724,8 @@
         "deaths": "19",
         "recovered": "1492",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "27/06/2020": {
         "date": "27/06/2020",
@@ -1632,7 +1740,8 @@
         "deaths": "17",
         "recovered": "1984",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "28/06/2020": {
         "date": "28/06/2020",
@@ -1647,7 +1756,8 @@
         "deaths": "15",
         "recovered": "1413",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "29/06/2020": {
         "date": "29/06/2020",
@@ -1662,7 +1772,8 @@
         "deaths": "18",
         "recovered": "1214",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "30/06/2020": {
         "date": "30/06/2020",
@@ -1677,7 +1788,8 @@
         "deaths": "16",
         "recovered": "1302",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "01/07/2020": {
         "date": "01/07/2020",
@@ -1692,7 +1804,8 @@
         "deaths": "19",
         "recovered": "2311",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "02/07/2020": {
         "date": "02/07/2020",
@@ -1707,7 +1820,8 @@
         "deaths": "17",
         "recovered": "1543",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "03/07/2020": {
         "date": "03/07/2020",
@@ -1722,7 +1836,8 @@
         "deaths": "19",
         "recovered": "1313",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "04/07/2020": {
         "date": "04/07/2020",
@@ -1737,7 +1852,8 @@
         "deaths": "20",
         "recovered": "1214",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "05/07/2020": {
         "date": "05/07/2020",
@@ -1752,7 +1868,8 @@
         "deaths": "19",
         "recovered": "1188",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "06/07/2020": {
         "date": "06/07/2020",
@@ -1767,7 +1884,8 @@
         "deaths": "16",
         "recovered": "2315",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "07/07/2020": {
         "date": "07/07/2020",
@@ -1782,7 +1900,8 @@
         "deaths": "19",
         "recovered": "2297",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "08/07/2020": {
         "date": "08/07/2020",
@@ -1797,7 +1916,8 @@
         "deaths": "22",
         "recovered": "2219",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "09/07/2020": {
         "date": "09/07/2020",
@@ -1812,7 +1932,8 @@
         "deaths": "18",
         "recovered": "2879",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "10/07/2020": {
         "date": "10/07/2020",
@@ -1827,7 +1948,8 @@
         "deaths": "23",
         "recovered": "1493",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "11/07/2020": {
         "date": "11/07/2020",
@@ -1842,7 +1964,8 @@
         "deaths": "21",
         "recovered": "1334",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "12/07/2020": {
         "date": "12/07/2020",
@@ -1857,7 +1980,8 @@
         "deaths": "19",
         "recovered": "1298",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "13/07/2020": {
         "date": "13/07/2020",
@@ -1872,7 +1996,8 @@
         "deaths": "19",
         "recovered": "1156",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "14/07/2020": {
         "date": "14/07/2020",
@@ -1887,7 +2012,8 @@
         "deaths": "20",
         "recovered": "1049",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "15/07/2020": {
         "date": "15/07/2020",
@@ -1902,7 +2028,8 @@
         "deaths": "17",
         "recovered": "1013",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "16/07/2020": {
         "date": "16/07/2020",
@@ -1917,7 +2044,8 @@
         "deaths": "21",
         "recovered": "1087",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "17/07/2020": {
         "date": "17/07/2020",
@@ -1932,7 +2060,8 @@
         "deaths": "18",
         "recovered": "1014",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "18/07/2020": {
         "date": "18/07/2020",
@@ -1947,7 +2076,8 @@
         "deaths": "17",
         "recovered": "1179",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "19/07/2020": {
         "date": "19/07/2020",
@@ -1962,7 +2092,8 @@
         "deaths": "16",
         "recovered": "997",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "20/07/2020": {
         "date": "20/07/2020",
@@ -1977,7 +2108,8 @@
         "deaths": "17",
         "recovered": "992",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "21/07/2020": {
         "date": "21/07/2020",
@@ -1992,7 +2124,8 @@
         "deaths": "18",
         "recovered": "1009",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "22/07/2020": {
         "date": "22/07/2020",
@@ -2007,7 +2140,8 @@
         "deaths": "19",
         "recovered": "1203",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "23/07/2020": {
         "date": "23/07/2020",
@@ -2022,7 +2156,8 @@
         "deaths": "18",
         "recovered": "1151",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "24/07/2020": {
         "date": "24/07/2020",
@@ -2037,7 +2172,8 @@
         "deaths": "17",
         "recovered": "1009",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "25/07/2020": {
         "date": "25/07/2020",
@@ -2052,7 +2188,8 @@
         "deaths": "16",
         "recovered": "1103",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "26/07/2020": {
         "date": "26/07/2020",
@@ -2067,7 +2204,8 @@
         "deaths": "17",
         "recovered": "1010",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "27/07/2020": {
         "date": "27/07/2020",
@@ -2082,7 +2220,8 @@
         "deaths": "17",
         "recovered": "982",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "28/07/2020": {
         "date": "28/07/2020",
@@ -2097,7 +2236,8 @@
         "deaths": "15",
         "recovered": "1092",
         "critical": "",
-        "pneumoniaPercent": ""
+        "pneumoniaPercent": "",
+        "cases": ""
     },
     "29/07/2020": {
         "date": "29/07/2020",
@@ -2112,7 +2252,8 @@
         "critical": "542",
         "pneumoniaPercent": "%9,4",
         "deaths": "14",
-        "recovered": "996"
+        "recovered": "996",
+        "cases": ""
     },
     "30/07/2020": {
         "date": "30/07/2020",
@@ -2127,7 +2268,8 @@
         "critical": "561",
         "pneumoniaPercent": "%9,3",
         "deaths": "15",
-        "recovered": "982"
+        "recovered": "982",
+        "cases": ""
     },
     "31/07/2020": {
         "date": "31/07/2020",
@@ -2142,7 +2284,8 @@
         "critical": "582",
         "pneumoniaPercent": "%8,8",
         "deaths": "17",
-        "recovered": "996"
+        "recovered": "996",
+        "cases": ""
     },
     "01/08/2020": {
         "date": "01/08/2020",
@@ -2157,7 +2300,8 @@
         "critical": "586",
         "pneumoniaPercent": "%8,7",
         "deaths": "19",
-        "recovered": "981"
+        "recovered": "981",
+        "cases": ""
     },
     "02/08/2020": {
         "date": "02/08/2020",
@@ -2172,7 +2316,8 @@
         "critical": "582",
         "pneumoniaPercent": "%8,5",
         "deaths": "18",
-        "recovered": "978"
+        "recovered": "978",
+        "cases": ""
     },
     "03/08/2020": {
         "date": "03/08/2020",
@@ -2187,7 +2332,8 @@
         "critical": "580",
         "pneumoniaPercent": "%8,4",
         "deaths": "19",
-        "recovered": "1003"
+        "recovered": "1003",
+        "cases": ""
     },
     "04/08/2020": {
         "date": "04/08/2020",
@@ -2202,7 +2348,8 @@
         "critical": "583",
         "pneumoniaPercent": "%8,5",
         "deaths": "18",
-        "recovered": "994"
+        "recovered": "994",
+        "cases": ""
     },
     "05/08/2020": {
         "date": "05/08/2020",
@@ -2217,7 +2364,8 @@
         "critical": "582",
         "pneumoniaPercent": "%8,4",
         "deaths": "19",
-        "recovered": "1015"
+        "recovered": "1015",
+        "cases": ""
     },
     "06/08/2020": {
         "date": "06/08/2020",
@@ -2232,7 +2380,8 @@
         "critical": "580",
         "pneumoniaPercent": "%8,3",
         "deaths": "14",
-        "recovered": "1040"
+        "recovered": "1040",
+        "cases": ""
     },
     "07/08/2020": {
         "date": "07/08/2020",
@@ -2247,7 +2396,8 @@
         "critical": "586",
         "pneumoniaPercent": "%8,3",
         "deaths": "15",
-        "recovered": "1028"
+        "recovered": "1028",
+        "cases": ""
     },
     "08/08/2020": {
         "date": "08/08/2020",
@@ -2262,7 +2412,8 @@
         "critical": "587",
         "pneumoniaPercent": "%8,1",
         "deaths": "16",
-        "recovered": "1082"
+        "recovered": "1082",
+        "cases": ""
     },
     "09/08/2020": {
         "date": "09/08/2020",
@@ -2277,7 +2428,8 @@
         "critical": "596",
         "pneumoniaPercent": "%8,1",
         "deaths": "15",
-        "recovered": "1103"
+        "recovered": "1103",
+        "cases": ""
     },
     "10/08/2020": {
         "date": "10/08/2020",
@@ -2292,7 +2444,8 @@
         "critical": "603",
         "pneumoniaPercent": "%8,2",
         "deaths": "14",
-        "recovered": "1211"
+        "recovered": "1211",
+        "cases": ""
     },
     "11/08/2020": {
         "date": "11/08/2020",
@@ -2307,7 +2460,8 @@
         "critical": "617",
         "pneumoniaPercent": "%8,2",
         "deaths": "15",
-        "recovered": "1185"
+        "recovered": "1185",
+        "cases": ""
     },
     "12/08/2020": {
         "date": "12/08/2020",
@@ -2322,7 +2476,8 @@
         "critical": "632",
         "pneumoniaPercent": "%8,2",
         "deaths": "18",
-        "recovered": "934"
+        "recovered": "934",
+        "cases": ""
     },
     "13/08/2020": {
         "date": "13/08/2020",
@@ -2337,7 +2492,8 @@
         "critical": "647",
         "pneumoniaPercent": "%7,9",
         "deaths": "21",
-        "recovered": "968"
+        "recovered": "968",
+        "cases": ""
     },
     "14/08/2020": {
         "date": "14/08/2020",
@@ -2352,7 +2508,8 @@
         "critical": "656",
         "pneumoniaPercent": "%7,8",
         "deaths": "22",
-        "recovered": "923"
+        "recovered": "923",
+        "cases": ""
     },
     "15/08/2020": {
         "date": "15/08/2020",
@@ -2367,7 +2524,8 @@
         "critical": "668",
         "pneumoniaPercent": "%7,6",
         "deaths": "21",
-        "recovered": "992"
+        "recovered": "992",
+        "cases": ""
     },
     "16/08/2020": {
         "date": "16/08/2020",
@@ -2382,7 +2540,8 @@
         "critical": "679",
         "pneumoniaPercent": "%7,6",
         "deaths": "19",
-        "recovered": "997"
+        "recovered": "997",
+        "cases": ""
     },
     "17/08/2020": {
         "date": "17/08/2020",
@@ -2397,7 +2556,8 @@
         "critical": "686",
         "pneumoniaPercent": "%7,5",
         "deaths": "22",
-        "recovered": "1002"
+        "recovered": "1002",
+        "cases": ""
     },
     "18/08/2020": {
         "date": "18/08/2020",
@@ -2412,7 +2572,8 @@
         "critical": "703",
         "pneumoniaPercent": "%7,5",
         "deaths": "20",
-        "recovered": "942"
+        "recovered": "942",
+        "cases": ""
     },
     "19/08/2020": {
         "date": "19/08/2020",
@@ -2427,7 +2588,8 @@
         "critical": "719",
         "pneumoniaPercent": "%7,4",
         "deaths": "23",
-        "recovered": "1002"
+        "recovered": "1002",
+        "cases": ""
     },
     "20/08/2020": {
         "date": "20/08/2020",
@@ -2442,7 +2604,8 @@
         "critical": "735",
         "pneumoniaPercent": "%7,3",
         "deaths": "19",
-        "recovered": "882"
+        "recovered": "882",
+        "cases": ""
     },
     "21/08/2020": {
         "date": "21/08/2020",
@@ -2457,7 +2620,8 @@
         "critical": "749",
         "pneumoniaPercent": "%7,3",
         "deaths": "22",
-        "recovered": "772"
+        "recovered": "772",
+        "cases": ""
     },
     "22/08/2020": {
         "date": "22/08/2020",
@@ -2472,7 +2636,8 @@
         "critical": "762",
         "pneumoniaPercent": "%7,4",
         "deaths": "22",
-        "recovered": "801"
+        "recovered": "801",
+        "cases": ""
     },
     "23/08/2020": {
         "date": "23/08/2020",
@@ -2487,7 +2652,8 @@
         "critical": "783",
         "pneumoniaPercent": "%7,5",
         "deaths": "19",
-        "recovered": "795"
+        "recovered": "795",
+        "cases": ""
     },
     "24/08/2020": {
         "date": "24/08/2020",
@@ -2502,7 +2668,8 @@
         "critical": "796",
         "pneumoniaPercent": "%7,4",
         "deaths": "18",
-        "recovered": "743"
+        "recovered": "743",
+        "cases": ""
     },
     "25/08/2020": {
         "date": "25/08/2020",
@@ -2517,7 +2684,8 @@
         "critical": "811",
         "pneumoniaPercent": "%7,4",
         "deaths": "24",
-        "recovered": "887"
+        "recovered": "887",
+        "cases": ""
     },
     "26/08/2020": {
         "date": "26/08/2020",
@@ -2532,7 +2700,8 @@
         "critical": "841",
         "pneumoniaPercent": "%7,4",
         "deaths": "20",
-        "recovered": "1002"
+        "recovered": "1002",
+        "cases": ""
     },
     "27/08/2020": {
         "date": "27/08/2020",
@@ -2547,7 +2716,8 @@
         "critical": "862",
         "pneumoniaPercent": "%7,3",
         "deaths": "26",
-        "recovered": "995"
+        "recovered": "995",
+        "cases": ""
     },
     "28/08/2020": {
         "date": "28/08/2020",
@@ -2562,7 +2732,8 @@
         "critical": "896",
         "pneumoniaPercent": "%7,4",
         "deaths": "36",
-        "recovered": "1017"
+        "recovered": "1017",
+        "cases": ""
     },
     "29/08/2020": {
         "date": "29/08/2020",
@@ -2577,7 +2748,8 @@
         "critical": "917",
         "pneumoniaPercent": "%7,4",
         "deaths": "39",
-        "recovered": "1003"
+        "recovered": "1003",
+        "cases": ""
     },
     "30/08/2020": {
         "date": "30/08/2020",
@@ -2592,7 +2764,8 @@
         "critical": "945",
         "pneumoniaPercent": "%7,5",
         "deaths": "42",
-        "recovered": "1027"
+        "recovered": "1027",
+        "cases": ""
     },
     "31/08/2020": {
         "date": "31/08/2020",
@@ -2607,7 +2780,8 @@
         "critical": "961",
         "pneumoniaPercent": "%7,5",
         "deaths": "44",
-        "recovered": "1087"
+        "recovered": "1087",
+        "cases": ""
     },
     "01/09/2020": {
         "date": "01/09/2020",
@@ -2622,7 +2796,8 @@
         "critical": "991",
         "pneumoniaPercent": "%7,6",
         "deaths": "47",
-        "recovered": "1003"
+        "recovered": "1003",
+        "cases": ""
     },
     "02/09/2020": {
         "date": "02/09/2020",
@@ -2637,7 +2812,8 @@
         "critical": "1017",
         "pneumoniaPercent": "%7,6",
         "deaths": "45",
-        "recovered": "947"
+        "recovered": "947",
+        "cases": ""
     },
     "03/09/2020": {
         "date": "03/09/2020",
@@ -2652,7 +2828,8 @@
         "critical": "1041",
         "pneumoniaPercent": "%7,6",
         "deaths": "49",
-        "recovered": "1211"
+        "recovered": "1211",
+        "cases": ""
     },
     "04/09/2020": {
         "date": "04/09/2020",
@@ -2667,7 +2844,8 @@
         "critical": "1076",
         "pneumoniaPercent": "%7,5",
         "deaths": "53",
-        "recovered": "1021"
+        "recovered": "1021",
+        "cases": ""
     },
     "05/09/2020": {
         "date": "05/09/2020",
@@ -2682,7 +2860,8 @@
         "critical": "1091",
         "pneumoniaPercent": "%7,5",
         "deaths": "56",
-        "recovered": "984"
+        "recovered": "984",
+        "cases": ""
     },
     "06/09/2020": {
         "date": "06/09/2020",
@@ -2697,7 +2876,8 @@
         "critical": "1102",
         "pneumoniaPercent": "%7,6",
         "deaths": "53",
-        "recovered": "1013"
+        "recovered": "1013",
+        "cases": ""
     },
     "07/09/2020": {
         "date": "07/09/2020",
@@ -2712,7 +2892,8 @@
         "critical": "1118",
         "pneumoniaPercent": "%7,6",
         "deaths": "57",
-        "recovered": "1047"
+        "recovered": "1047",
+        "cases": ""
     },
     "08/09/2020": {
         "date": "08/09/2020",
@@ -2727,7 +2908,8 @@
         "critical": "1159",
         "pneumoniaPercent": "%7,5",
         "deaths": "52",
-        "recovered": "1093"
+        "recovered": "1093",
+        "cases": ""
     },
     "09/09/2020": {
         "date": "09/09/2020",
@@ -2742,7 +2924,8 @@
         "critical": "1181",
         "pneumoniaPercent": "%7,4",
         "deaths": "55",
-        "recovered": "943"
+        "recovered": "943",
+        "cases": ""
     },
     "10/09/2020": {
         "date": "10/09/2020",
@@ -2757,7 +2940,8 @@
         "critical": "1209",
         "pneumoniaPercent": "%7,3",
         "deaths": "58",
-        "recovered": "1219"
+        "recovered": "1219",
+        "cases": ""
     },
     "11/09/2020": {
         "date": "11/09/2020",
@@ -2772,7 +2956,8 @@
         "critical": "1223",
         "pneumoniaPercent": "%7,3",
         "deaths": "56",
-        "recovered": "1117"
+        "recovered": "1117",
+        "cases": ""
     },
     "12/09/2020": {
         "date": "12/09/2020",
@@ -2787,7 +2972,8 @@
         "critical": "1241",
         "pneumoniaPercent": "%7,2",
         "deaths": "48",
-        "recovered": "1207"
+        "recovered": "1207",
+        "cases": ""
     },
     "13/09/2020": {
         "date": "13/09/2020",
@@ -2802,7 +2988,8 @@
         "critical": "1267",
         "pneumoniaPercent": "%7,2",
         "deaths": "57",
-        "recovered": "1102"
+        "recovered": "1102",
+        "cases": ""
     },
     "14/09/2020": {
         "date": "14/09/2020",
@@ -2817,7 +3004,8 @@
         "critical": "1301",
         "pneumoniaPercent": "%7,1",
         "deaths": "63",
-        "recovered": "1225"
+        "recovered": "1225",
+        "cases": ""
     },
     "15/09/2020": {
         "date": "15/09/2020",
@@ -2832,7 +3020,8 @@
         "critical": "1327",
         "pneumoniaPercent": "%7,1",
         "deaths": "67",
-        "recovered": "1202"
+        "recovered": "1202",
+        "cases": ""
     },
     "16/09/2020": {
         "date": "16/09/2020",
@@ -2847,7 +3036,8 @@
         "critical": "1351",
         "pneumoniaPercent": "%7,1",
         "deaths": "63",
-        "recovered": "1342"
+        "recovered": "1342",
+        "cases": ""
     },
     "17/09/2020": {
         "date": "17/09/2020",
@@ -2862,7 +3052,8 @@
         "critical": "1372",
         "pneumoniaPercent": "%7,1",
         "deaths": "66",
-        "recovered": "1143"
+        "recovered": "1143",
+        "cases": ""
     },
     "18/09/2020": {
         "date": "18/09/2020",
@@ -2877,7 +3068,8 @@
         "critical": "1402",
         "pneumoniaPercent": "%7,1",
         "deaths": "62",
-        "recovered": "1060"
+        "recovered": "1060",
+        "cases": ""
     },
     "19/09/2020": {
         "date": "19/09/2020",
@@ -2892,7 +3084,8 @@
         "critical": "1432",
         "pneumoniaPercent": "%7,0",
         "deaths": "68",
-        "recovered": "1312"
+        "recovered": "1312",
+        "cases": ""
     },
     "20/09/2020": {
         "date": "20/09/2020",
@@ -2907,7 +3100,8 @@
         "critical": "1456",
         "pneumoniaPercent": "%7,0",
         "deaths": "61",
-        "recovered": "1116"
+        "recovered": "1116",
+        "cases": ""
     },
     "21/09/2020": {
         "date": "21/09/2020",
@@ -2922,7 +3116,8 @@
         "critical": "1491",
         "pneumoniaPercent": "%6,8",
         "deaths": "68",
-        "recovered": "1202"
+        "recovered": "1202",
+        "cases": ""
     },
     "22/09/2020": {
         "date": "22/09/2020",
@@ -2937,7 +3132,8 @@
         "critical": "1522",
         "pneumoniaPercent": "%6,7",
         "deaths": "65",
-        "recovered": "1261"
+        "recovered": "1261",
+        "cases": ""
     },
     "23/09/2020": {
         "date": "23/09/2020",
@@ -2952,7 +3148,8 @@
         "critical": "1561",
         "pneumoniaPercent": "%6,7",
         "deaths": "72",
-        "recovered": "1027"
+        "recovered": "1027",
+        "cases": ""
     },
     "24/09/2020": {
         "date": "24/09/2020",
@@ -2967,7 +3164,8 @@
         "critical": "1573",
         "pneumoniaPercent": "%6,6",
         "deaths": "74",
-        "recovered": "1241"
+        "recovered": "1241",
+        "cases": ""
     },
     "25/09/2020": {
         "date": "25/09/2020",
@@ -2982,7 +3180,8 @@
         "critical": "1601",
         "pneumoniaPercent": "%6,6",
         "deaths": "73",
-        "recovered": "1318"
+        "recovered": "1318",
+        "cases": ""
     },
     "26/09/2020": {
         "date": "26/09/2020",
@@ -2997,7 +3196,8 @@
         "critical": "1615",
         "pneumoniaPercent": "%6,6",
         "deaths": "71",
-        "recovered": "1232"
+        "recovered": "1232",
+        "cases": ""
     },
     "27/09/2020": {
         "date": "27/09/2020",
@@ -3012,7 +3212,8 @@
         "critical": "1583",
         "pneumoniaPercent": "%6,5",
         "deaths": "68",
-        "recovered": "1116"
+        "recovered": "1116",
+        "cases": ""
     },
     "28/09/2020": {
         "date": "28/09/2020",
@@ -3027,7 +3228,8 @@
         "critical": "1596",
         "pneumoniaPercent": "%6,5",
         "deaths": "65",
-        "recovered": "1422"
+        "recovered": "1422",
+        "cases": ""
     },
     "29/09/2020": {
         "date": "29/09/2020",
@@ -3042,7 +3244,8 @@
         "critical": "1583",
         "pneumoniaPercent": "%6,5",
         "deaths": "68",
-        "recovered": "1452"
+        "recovered": "1452",
+        "cases": ""
     },
     "30/09/2020": {
         "date": "30/09/2020",
@@ -3057,7 +3260,8 @@
         "critical": "1516",
         "pneumoniaPercent": "%6,4",
         "deaths": "65",
-        "recovered": "1245"
+        "recovered": "1245",
+        "cases": ""
     },
     "01/10/2020": {
         "date": "01/10/2020",
@@ -3072,7 +3276,8 @@
         "critical": "1507",
         "pneumoniaPercent": "%6,4",
         "deaths": "67",
-        "recovered": "1402"
+        "recovered": "1402",
+        "cases": ""
     },
     "02/10/2020": {
         "date": "02/10/2020",
@@ -3087,7 +3292,8 @@
         "critical": "1455",
         "pneumoniaPercent": "%6,4",
         "deaths": "63",
-        "recovered": "1506"
+        "recovered": "1506",
+        "cases": ""
     },
     "03/10/2020": {
         "date": "03/10/2020",
@@ -3102,7 +3308,8 @@
         "critical": "1470",
         "pneumoniaPercent": "%6,4",
         "deaths": "59",
-        "recovered": "1211"
+        "recovered": "1211",
+        "cases": ""
     },
     "04/10/2020": {
         "date": "04/10/2020",
@@ -3117,7 +3324,8 @@
         "critical": "1475",
         "pneumoniaPercent": "%6,4",
         "deaths": "57",
-        "recovered": "1182"
+        "recovered": "1182",
+        "cases": ""
     },
     "05/10/2020": {
         "date": "05/10/2020",
@@ -3132,7 +3340,8 @@
         "critical": "1412",
         "pneumoniaPercent": "%6,2",
         "deaths": "57",
-        "recovered": "1320"
+        "recovered": "1320",
+        "cases": ""
     },
     "06/10/2020": {
         "date": "06/10/2020",
@@ -3147,7 +3356,8 @@
         "critical": "1414",
         "pneumoniaPercent": "%6,2",
         "deaths": "55",
-        "recovered": "1229"
+        "recovered": "1229",
+        "cases": ""
     },
     "07/10/2020": {
         "date": "07/10/2020",
@@ -3162,7 +3372,8 @@
         "critical": "1411",
         "pneumoniaPercent": "%6,2",
         "deaths": "56",
-        "recovered": "1355"
+        "recovered": "1355",
+        "cases": ""
     },
     "08/10/2020": {
         "date": "08/10/2020",
@@ -3177,7 +3388,8 @@
         "critical": "1403",
         "pneumoniaPercent": "%6,2",
         "deaths": "58",
-        "recovered": "1398"
+        "recovered": "1398",
+        "cases": ""
     },
     "09/10/2020": {
         "date": "09/10/2020",
@@ -3192,7 +3404,8 @@
         "critical": "1398",
         "pneumoniaPercent": "%6,2",
         "deaths": "55",
-        "recovered": "1402"
+        "recovered": "1402",
+        "cases": ""
     },
     "10/10/2020": {
         "date": "10/10/2020",
@@ -3207,7 +3420,8 @@
         "critical": "1414",
         "pneumoniaPercent": "%6,2",
         "deaths": "56",
-        "recovered": "1391"
+        "recovered": "1391",
+        "cases": ""
     },
     "11/10/2020": {
         "date": "11/10/2020",
@@ -3222,7 +3436,8 @@
         "critical": "1411",
         "pneumoniaPercent": "%6,2",
         "deaths": "59",
-        "recovered": "1212"
+        "recovered": "1212",
+        "cases": ""
     },
     "12/10/2020": {
         "date": "12/10/2020",
@@ -3237,7 +3452,8 @@
         "critical": "1417",
         "pneumoniaPercent": "%5,9",
         "deaths": "58",
-        "recovered": "1301"
+        "recovered": "1301",
+        "cases": ""
     },
     "13/10/2020": {
         "date": "13/10/2020",
@@ -3252,7 +3468,8 @@
         "critical": "1416",
         "pneumoniaPercent": "%5,9",
         "deaths": "62",
-        "recovered": "1314"
+        "recovered": "1314",
+        "cases": ""
     },
     "14/10/2020": {
         "date": "14/10/2020",
@@ -3267,7 +3484,8 @@
         "critical": "1418",
         "pneumoniaPercent": "%5,9",
         "deaths": "57",
-        "recovered": "1396"
+        "recovered": "1396",
+        "cases": ""
     },
     "15/10/2020": {
         "date": "15/10/2020",
@@ -3282,7 +3500,8 @@
         "critical": "1408",
         "pneumoniaPercent": "%5,9",
         "deaths": "66",
-        "recovered": "1311"
+        "recovered": "1311",
+        "cases": ""
     },
     "16/10/2020": {
         "date": "16/10/2020",
@@ -3297,7 +3516,8 @@
         "critical": "1445",
         "pneumoniaPercent": "%5,9",
         "deaths": "73",
-        "recovered": "1419"
+        "recovered": "1419",
+        "cases": ""
     },
     "17/10/2020": {
         "date": "17/10/2020",
@@ -3312,7 +3532,8 @@
         "critical": "1428",
         "pneumoniaPercent": "%5,9",
         "deaths": "71",
-        "recovered": "1401"
+        "recovered": "1401",
+        "cases": ""
     },
     "18/10/2020": {
         "date": "18/10/2020",
@@ -3327,7 +3548,8 @@
         "critical": "1427",
         "pneumoniaPercent": "%5,9",
         "deaths": "72",
-        "recovered": "1504"
+        "recovered": "1504",
+        "cases": ""
     },
     "19/10/2020": {
         "date": "19/10/2020",
@@ -3342,7 +3564,8 @@
         "critical": "1447",
         "pneumoniaPercent": "%5,6",
         "deaths": "75",
-        "recovered": "1424"
+        "recovered": "1424",
+        "cases": ""
     },
     "20/10/2020": {
         "date": "20/10/2020",
@@ -3357,7 +3580,8 @@
         "critical": "1545",
         "pneumoniaPercent": "%5,6",
         "deaths": "74",
-        "recovered": "1512"
+        "recovered": "1512",
+        "cases": ""
     },
     "21/10/2020": {
         "date": "21/10/2020",
@@ -3372,7 +3596,8 @@
         "critical": "1504",
         "pneumoniaPercent": "%5,6",
         "deaths": "68",
-        "recovered": "1507"
+        "recovered": "1507",
+        "cases": ""
     },
     "22/10/2020": {
         "date": "22/10/2020",
@@ -3387,7 +3612,8 @@
         "critical": "1599",
         "pneumoniaPercent": "%5,6",
         "deaths": "71",
-        "recovered": "1581"
+        "recovered": "1581",
+        "cases": ""
     },
     "23/10/2020": {
         "date": "23/10/2020",
@@ -3402,7 +3628,8 @@
         "critical": "1648",
         "pneumoniaPercent": "%5,6",
         "deaths": "74",
-        "recovered": "1493"
+        "recovered": "1493",
+        "cases": ""
     },
     "24/10/2020": {
         "date": "24/10/2020",
@@ -3417,7 +3644,8 @@
         "critical": "1699",
         "pneumoniaPercent": "%5,6",
         "deaths": "69",
-        "recovered": "1573"
+        "recovered": "1573",
+        "cases": ""
     },
     "25/10/2020": {
         "date": "25/10/2020",
@@ -3432,7 +3660,8 @@
         "critical": "1744",
         "pneumoniaPercent": "%5,6",
         "deaths": "72",
-        "recovered": "1297"
+        "recovered": "1297",
+        "cases": ""
     },
     "26/10/2020": {
         "date": "26/10/2020",
@@ -3447,7 +3676,8 @@
         "critical": "1780",
         "pneumoniaPercent": "%5,0",
         "deaths": "75",
-        "recovered": "1618"
+        "recovered": "1618",
+        "cases": ""
     },
     "27/10/2020": {
         "date": "27/10/2020",
@@ -3462,7 +3692,8 @@
         "critical": "1827",
         "pneumoniaPercent": "%5,0",
         "deaths": "76",
-        "recovered": "1511"
+        "recovered": "1511",
+        "cases": ""
     },
     "28/10/2020": {
         "date": "28/10/2020",
@@ -3477,7 +3708,8 @@
         "critical": "1836",
         "pneumoniaPercent": "%5,0",
         "deaths": "77",
-        "recovered": "1662"
+        "recovered": "1662",
+        "cases": ""
     },
     "29/10/2020": {
         "date": "29/10/2020",
@@ -3492,7 +3724,8 @@
         "critical": "1916",
         "pneumoniaPercent": "%5,0",
         "deaths": "72",
-        "recovered": "1581"
+        "recovered": "1581",
+        "cases": ""
     },
     "30/10/2020": {
         "date": "30/10/2020",
@@ -3507,7 +3740,8 @@
         "critical": "1966",
         "pneumoniaPercent": "%5,0",
         "deaths": "78",
-        "recovered": "1703"
+        "recovered": "1703",
+        "cases": ""
     },
     "31/10/2020": {
         "date": "31/10/2020",
@@ -3522,7 +3756,8 @@
         "critical": "2075",
         "pneumoniaPercent": "%5,0",
         "deaths": "75",
-        "recovered": "1506"
+        "recovered": "1506",
+        "cases": ""
     },
     "01/11/2020": {
         "date": "01/11/2020",
@@ -3537,7 +3772,8 @@
         "critical": "2177",
         "pneumoniaPercent": "%5,0",
         "deaths": "74",
-        "recovered": "1515"
+        "recovered": "1515",
+        "cases": ""
     },
     "02/11/2020": {
         "date": "02/11/2020",
@@ -3552,7 +3788,8 @@
         "critical": "2341",
         "pneumoniaPercent": "%4,7",
         "deaths": "76",
-        "recovered": "1521"
+        "recovered": "1521",
+        "cases": ""
     },
     "03/11/2020": {
         "date": "03/11/2020",
@@ -3567,7 +3804,8 @@
         "critical": "2386",
         "pneumoniaPercent": "%4,7",
         "deaths": "79",
-        "recovered": "1817"
+        "recovered": "1817",
+        "cases": ""
     },
     "04/11/2020": {
         "date": "04/11/2020",
@@ -3582,7 +3820,8 @@
         "critical": "2464",
         "pneumoniaPercent": "%4,7",
         "deaths": "77",
-        "recovered": "1841"
+        "recovered": "1841",
+        "cases": ""
     },
     "05/11/2020": {
         "date": "05/11/2020",
@@ -3597,7 +3836,8 @@
         "critical": "2564",
         "pneumoniaPercent": "%4,7",
         "deaths": "81",
-        "recovered": "1714"
+        "recovered": "1714",
+        "cases": ""
     },
     "06/11/2020": {
         "date": "06/11/2020",
@@ -3612,7 +3852,8 @@
         "critical": "2654",
         "pneumoniaPercent": "%4,7",
         "deaths": "83",
-        "recovered": "1914"
+        "recovered": "1914",
+        "cases": ""
     },
     "07/11/2020": {
         "date": "07/11/2020",
@@ -3627,7 +3868,8 @@
         "critical": "2730",
         "pneumoniaPercent": "%4,7",
         "deaths": "81",
-        "recovered": "1928"
+        "recovered": "1928",
+        "cases": ""
     },
     "08/11/2020": {
         "date": "08/11/2020",
@@ -3642,7 +3884,8 @@
         "critical": "2740",
         "pneumoniaPercent": "%4,7",
         "deaths": "84",
-        "recovered": "2018"
+        "recovered": "2018",
+        "cases": ""
     },
     "09/11/2020": {
         "date": "09/11/2020",
@@ -3657,7 +3900,8 @@
         "critical": "2867",
         "pneumoniaPercent": "%4,2",
         "deaths": "85",
-        "recovered": "2047"
+        "recovered": "2047",
+        "cases": ""
     },
     "10/11/2020": {
         "date": "10/11/2020",
@@ -3672,7 +3916,8 @@
         "critical": "3001",
         "pneumoniaPercent": "%4,2",
         "deaths": "87",
-        "recovered": "2215"
+        "recovered": "2215",
+        "cases": ""
     },
     "11/11/2020": {
         "date": "11/11/2020",
@@ -3687,7 +3932,8 @@
         "critical": "3095",
         "pneumoniaPercent": "%4,2",
         "deaths": "86",
-        "recovered": "2112"
+        "recovered": "2112",
+        "cases": ""
     },
     "12/11/2020": {
         "date": "12/11/2020",
@@ -3702,7 +3948,8 @@
         "critical": "3230",
         "pneumoniaPercent": "%4,2",
         "deaths": "88",
-        "recovered": "2181"
+        "recovered": "2181",
+        "cases": ""
     },
     "13/11/2020": {
         "date": "13/11/2020",
@@ -3717,7 +3964,8 @@
         "critical": "3356",
         "pneumoniaPercent": "%4,2",
         "deaths": "93",
-        "recovered": "2010"
+        "recovered": "2010",
+        "cases": ""
     },
     "14/11/2020": {
         "date": "14/11/2020",
@@ -3732,7 +3980,8 @@
         "critical": "3423",
         "pneumoniaPercent": "%4,2",
         "deaths": "92",
-        "recovered": "2298"
+        "recovered": "2298",
+        "cases": ""
     },
     "15/11/2020": {
         "date": "15/11/2020",
@@ -3747,7 +3996,8 @@
         "critical": "3439",
         "pneumoniaPercent": "%4,2",
         "deaths": "89",
-        "recovered": "2561"
+        "recovered": "2561",
+        "cases": ""
     },
     "16/11/2020": {
         "date": "16/11/2020",
@@ -3762,7 +4012,8 @@
         "critical": "3610",
         "pneumoniaPercent": "%3,8",
         "deaths": "94",
-        "recovered": "2712"
+        "recovered": "2712",
+        "cases": ""
     },
     "17/11/2020": {
         "date": "17/11/2020",
@@ -3777,7 +4028,8 @@
         "critical": "3657",
         "pneumoniaPercent": "%3,8",
         "deaths": "103",
-        "recovered": "2688"
+        "recovered": "2688",
+        "cases": ""
     },
     "18/11/2020": {
         "date": "18/11/2020",
@@ -3792,7 +4044,8 @@
         "critical": "3742",
         "pneumoniaPercent": "%3,8",
         "deaths": "116",
-        "recovered": "2592"
+        "recovered": "2592",
+        "cases": ""
     },
     "19/11/2020": {
         "date": "19/11/2020",
@@ -3807,7 +4060,8 @@
         "critical": "3850",
         "pneumoniaPercent": "%3,8",
         "deaths": "123",
-        "recovered": "2918"
+        "recovered": "2918",
+        "cases": ""
     },
     "20/11/2020": {
         "date": "20/11/2020",
@@ -3822,7 +4076,8 @@
         "critical": "3990",
         "pneumoniaPercent": "%3,8",
         "deaths": "141",
-        "recovered": "3019"
+        "recovered": "3019",
+        "cases": ""
     },
     "21/11/2020": {
         "date": "21/11/2020",
@@ -3837,7 +4092,8 @@
         "critical": "4121",
         "pneumoniaPercent": "%3,8",
         "deaths": "135",
-        "recovered": "3233"
+        "recovered": "3233",
+        "cases": ""
     },
     "22/11/2020": {
         "date": "22/11/2020",
@@ -3852,7 +4108,8 @@
         "critical": "4217",
         "pneumoniaPercent": "%3,8",
         "deaths": "139",
-        "recovered": "3812"
+        "recovered": "3812",
+        "cases": ""
     },
     "23/11/2020": {
         "date": "23/11/2020",
@@ -3867,7 +4124,8 @@
         "critical": "4409",
         "pneumoniaPercent": "%3,4",
         "deaths": "153",
-        "recovered": "3254"
+        "recovered": "3254",
+        "cases": ""
     },
     "24/11/2020": {
         "date": "24/11/2020",
@@ -3882,7 +4140,8 @@
         "critical": "4543",
         "pneumoniaPercent": "%3,4",
         "deaths": "161",
-        "recovered": "3678"
+        "recovered": "3678",
+        "cases": ""
     },
     "25/11/2020": {
         "date": "25/11/2020",
@@ -3897,7 +4156,8 @@
         "critical": "4641",
         "pneumoniaPercent": "%3,4",
         "deaths": "168",
-        "recovered": "3911"
+        "recovered": "3911",
+        "cases": ""
     },
     "26/11/2020": {
         "date": "26/11/2020",
