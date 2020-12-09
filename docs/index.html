@@ -384,13 +384,13 @@
                 curve: 'straight'
             },
             title: {
-                text: 'Günlük Hasta, Vefat ve İyileşme Sayıları',
+                text: 'Günlük Vaka, Hasta, Vefat ve İyileşme Sayıları',
                 align: 'left'
             },
             xaxis: {
                 categories: []
             },
-            colors: ['#5786B2', '#FFC428', '#F98025'],
+            colors: ['#5786B2', '#FFC428', '#F98025', '#6EB8D1'],
             yaxis: [
             {
                 seriesName: 'Günlük sayı',
@@ -605,6 +605,12 @@
                     type: 'line',
                     data: values.map(x => x.deaths)
                 });
+                speedOptions.series.push({
+                	name: 'Vaka',
+                	type: 'line',
+                	data: fixEmptyStrings(values.map(x => x.cases))
+            	});
+                
                 speedOptions.xaxis.categories = dates;
                 const speedChart = new ApexCharts(document.querySelector('#speedChart'), speedOptions);
                 speedChart.render();
@@ -639,7 +645,7 @@
                     },
 					{
 						field: 'cases',
-						title: 'Günlük Vaka'	
+						title: 'Vaka'	
 					},
                     {
                         field: 'patients',
