@@ -248,7 +248,7 @@
                 curve: 'straight'
             },
             title: {
-                text: 'Toplam Hasta, İyileşen ve Vefat Sayıları',
+                text: 'Toplam Vaka, İyileşen ve Vefat Sayıları',
                 align: 'left'
             },
             xaxis: {
@@ -316,7 +316,7 @@
                 curve: 'straight'
             },
             title: {
-                text: 'Hasta, İyileşen ve Vefat Büyüme Oranları',
+                text: 'Vaka, İyileşen ve Vefat Büyüme Oranları',
                 align: 'left'
             },
             xaxis: {
@@ -356,7 +356,7 @@
             xaxis: {
                 categories: []
             },
-            colors: ['#5786B2'],
+            colors: ['#5786B2', '#FFC428'],
             yaxis: {
                 seriesName: 'Pozitif test yüzdesi',
                 title: {
@@ -503,7 +503,7 @@
                 
                 // Totals chart
                 totalsOptions.series.push({
-                    name: 'Hasta',
+                    name: 'Vaka',
                     type: 'line',
                     data: values.map(x => x.totalPatients)
                 });
@@ -526,7 +526,7 @@
                 
                 // Growth Percentage chart
                 growthPercentageOptions.series.push({
-                    name: 'Hasta',
+                    name: 'Vaka',
                     type: 'line',
                     data: calculateGrowth(values.map(x => x.totalPatients))
                 });
@@ -549,9 +549,16 @@
                 
                 // Test Positivity Percentage chart
                 testPositivityPercentOptions.series.push({
-                    name: 'Pozitif test oranı',
+                    name: 'Pozitif test oranı (Hasta)',
                     type: 'line',
                     data: calculatePercentage(values.map(x => x.patients), values.map(y => y.tests))
+                });
+
+                // Test Positivity Percentage chart
+                testPositivityPercentOptions.series.push({
+                    name: 'Pozitif test oranı (Vaka)',
+                    type: 'line',
+                    data: calculatePercentage(values.map(x => x.cases), values.map(y => y.tests))
                 });
                 
                 testPositivityPercentOptions.xaxis.categories = dates;
