@@ -4,6 +4,7 @@
 For English, please [scroll down](https://github.com/hbayindir/covid-19-turkey/blob/master/README.md#COVID-19-Turkey-Dashboard).
 
 **Not:** Bu depo Ozan Ertürk'ün geliştirmiş olduğu [covid19-turkey-api](https://github.com/ozanerturk/covid19-turkey-api) kodunun bir çatallamasıdır.
+
 **Not:** Bu depo 2 Eylül 2022 itibari ile arşivlenmiş olup, güncellenmeyecektir. Bir kopyası [Source Hut](https://git.sr.ht/~bayindirh/covid19-dashboard) üzerinde tutulacaktır ve geliştirmeler orada yapılacaktır.
 
 ![Image of Application](https://github.com/hbayindir/covid-19-turkey/raw/master/assets/website_screenshot.jpg)
@@ -33,6 +34,7 @@ Geriye dönük bilgiler aşağıdaki kaynaklar kullanılarak elde edilmiştir.
 For Turkish, please refer [here](https://github.com/hbayindir/covid-19-turkey/blob/master/README.md).
 
 **Note:** This repository is a fork of the code developed by Ozan Ertürk. Access to his repository from [here](https://github.com/ozanerturk/covid19-turkey-api).
+
 **Note:** This repository is archived as of 2 September 2022. A copy of the repository will be hosted at [Source Hut](https://git.sr.ht/~bayindirh/covid19-dashboard), and any furter development will be done there.
 
 ![Image of Application](https://github.com/hbayindir/covid-19-turkey/raw/master/assets/website_screenshot.jpg)
