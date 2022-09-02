@@ -1,7 +1,7 @@
 
 # COVID-19 Türkiye Bilgi Ekranı  ![Auto Updates](https://github.com/hbayindir/covid-19-turkey/workflows/Scheduler%20Workflow/badge.svg)
 
-For English, please [scroll down](https://github.com/hbayindir/covid-19-turkey/blob/master/README.md#COVID-19-Turkey-Dashboard).
+For English, please [scroll down](https://github.com/hbayindir/covid-19-turkey#COVID-19-Turkey-Dashboard).
 
 **Not:** Bu depo Ozan Ertürk'ün geliştirmiş olduğu [covid19-turkey-api](https://github.com/ozanerturk/covid19-turkey-api) kodunun bir çatallamasıdır.
 
